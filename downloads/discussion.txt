@@ -1,22 +1,33 @@
+\section*{大標}
 \begin{quote}
 then included in the BOM’s to manufacture other products. This is considered the main item class since it is both the source and the goal of manufacturing.
 然後包含在 BOM 中以製造其他產品。這被認為是主要專案 類，因為它既是製造的源泉，也是製造的目標。
 \end{quote}
 
-\section*{大標}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 230320.png}
+  \caption{Figure 22 simplified Product relation diagram 圖22簡化產品關係圖}
+  \label{fig:螢幕擷取畫面 2024-03-14 230320}
+\end{figure}
+
+\subsection*{大標中的小標}
 5.1.3.2. Operation item class and workcenter item class
 5.1.3.2. 工序物料類和工作中心物料類
 
 \begin{quote}
 The operation item is representative of a manufacturing operation that is required to transform components or raw materials into a product or new component while the workcenter item represents the place at which the operation takes place, e.g., a sanding wood will be carried out in a sanding station (Figure 23) that has the proper equipment. The workcenter is eventually used in Odoo as a time/equipment management tool in its production planning. Basically, when the production center is at full capacity it puts following processes on hold or redirects the processes to an alternative workcenter. The operation item is also responsible for holding the instruction files that are consulted during production.
        工序專案代表需要的製造工序 將元件或原材料轉換為產品或新元件，同時 工作中心專案表示操作發生的位置，例如，打磨木材 將在具有適當設備的打磨站（圖 23）中進行。這 workcenter最終在Odoo中用作其時間/設備管理工具。 生產計劃。基本上，當生產中心滿負荷運轉時，它會把 跟蹤處於暫停狀態的進程或將進程重定向到備用工作中心。這 操作項還負責保存期間查閱的指令檔 生產。
-
 \end{quote}
 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 230743.png}
+  \caption{Figure 23 Simplified Operation diagram 圖23簡化操作圖}
+  \label{fig:螢幕擷取畫面 2024-03-14 230743}
+\end{figure}
+
 \subsection*{大標中的小標}
-
-
-\section*{大標}
 5.1.3.3. The Bill of Materials item class
 5.1.3.3. 物料清單項類
 
@@ -24,6 +35,14 @@ The operation item is representative of a manufacturing operation that is requir
 The Bill of Materials is a list of components necessary to build a product. In Odoo, however, the BOM is best described by what PLM would consider the virtual representation of the production process. That might seem counter intuitive at first considering the previously mentioned operation item class, but in fact since the BOM is a compound item it 34 points directly to all item types necessary to produce the end product (Figure 24). For example, let’s say that to build a product it is required 3 different parts and 4 different operations; the BOM of said product would list all of them as well as specify the order in which these are utilized.
     物料清單是構建產品所需的元件清單。在Odoo， 但是，最好用 PLM 對虛擬表示的考慮來描述 BOM 的生產過程。乍一看，這似乎有悖常理，因為 前面提到的工序物料類，但實際上，由於物料清單是一個複合物料，它直接指向生產最終產品所需的所有物料類型（圖 24）。為 例如，假設要構建一個產品，需要3個不同的部分和4個不同的部分 操作;所述產品的 BOM 將列出所有這些產品並指定順序 這些被利用了。
 \end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 231001.png}
+  \caption{Figure 24 Simplified BOM diagram 圖24簡化的BOM 圖}
+  \label{fig:螢幕擷取畫面 2024-03-14 231001}
+\end{figure}
+
 \subsection*{大標中的小標}
 5.1.3.4. Manufacturing order item class and work order item class
 5.1.3.4. 製造訂單項類和工作訂單項類
@@ -33,6 +52,20 @@ Along the standard items that are considered within Odoo, orders are the ones th
        在Odoo中考慮的標準專案中，訂單是那些 代表系統內的開始。他們發出的信號表明，變化正在發生 不知何故和某個地方。在製造訂單的情況下，它表示訂單 使用其 BOM 作為基礎製造 N 種特定產品。這是結果 該MO的工作訂單由Odoo自動生成（每個必要的一個 BOM 中列出的操作），並在整個可用的必要工作中心中分配 （圖 25）。
        工單是製造操作員與Odoo交互的主要形式， 它顯示操作項指定的所有指令，以及對其的控制 完成。當 WO 發生時，操作員通過其開始的介面發出信號， 它的完成，甚至在系統保持時所需的任何品質控制檢查點 時序和性能跟蹤（圖 26）。完成所有 WO 後，就可以聲明 MO 完成，並消耗物料清單中指定的材料和元件，並複製 N 份 的產品已添加到庫存中。所有這些都使工作訂單成為核心部分 MES對此表示擔憂。
 \end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 231135.png}
+  \caption{Figure 25 Simplified orders diagram 圖25簡化訂單圖}
+  \label{fig:螢幕擷取畫面 2024-03-14 231135}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 231251.png}
+  \caption{Figure 26 Operator interface during the WO 圖26 WO操作介面}
+  \label{fig:螢幕擷取畫面 2024-03-14 231251}
+\end{figure}
 
 \subsection*{大標中的小標}
 5.1.3.5. The engineering change order
@@ -44,7 +77,439 @@ As explained in the beginning of chapter 2 the Odoo management software consider
        An ECO is an item class that outlines the proposed changes to the product or the parts that would be affected by the change. In other words, is a central information hub for everyone associated with a given product.  
        ECO 是一個專案類，它概述了對產品或部件的擬議更改 將受到更改的影響。換句話說，是每個人的中央資訊中心 與給定產品關聯。
 The idea is to signal the need for change to a product item or a BOM item, hold the files that are relevant to the change and apply the change or at least signal that the change has been implemented, all while keeping the history of al the previous changes. All very useful in the future and serve as a process to streamline product development and help improve products/production.
-        這個想法是發出需要更改產品專案或 BOM 專案的信號，保留檔 與更改相關並應用更改或至少表明更改已 實施，同時保留所有先前更改的歷史記錄。所有這些都非常有用 未來，並作為簡化產品開發和幫助改進的過程 產品/生產。
+        這個想法是發出需要更改產品專案或 BOM 專案的信號，保留檔 與更改相關並應用更改或至少表明更改已實施，同時保留所有先前更改的歷史記錄。所有這些都非常有用 未來，並作為簡化產品開發和幫助改進的過程 產品/生產。
 \end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 231411.png}
+  \caption{Figure 27 Simplified ECO function diagram 圖27簡化的ECO功能圖 }
+  \label{fig:螢幕擷取畫面 2024-03-14 231411}
+\end{figure}
+
+\section*{大標}
+5.2. Starting the simulation
+5.2. 開始模擬 
+
+\subsection*{大標中的小標}
+5.2.1. Software option chosen for the simulation
+5.2.1. 為模擬選擇的軟體選項
+
+\begin{quote}
+For this simulation, it has been decided that the best evaluation of the Odoo software would be through its online web-based service. The reasons for such choice instead of using the community edition of the software are as follows:
+       對於此類比，已決定對Odoo軟體進行最佳評估 將通過其基於網路的在線服務。選擇而不是使用的原因 該軟體的社區版本如下：
+\end{quote}
+
+\begin{quote}
+▪ The practicality of using a web-based service as oppose to administrate a server locally or remotely. Although the community application was tested as part of the research for this work and has been judged to be a very beginner friendly server application the fact of the matter is that hosting a server is, on its own, a job that requires experience and knowledge. There has been a shift of the market regarding this sort of application towards product as a service and with good reason. At the time this thesis is being written the COVID-19 pandemic is forcing a lot of employees to work remotely and making clear to the market that IT is not a simple job and that a web service is an attractive option.
+▪ 使用基於 Web 的服務作為管理伺服器的實用性 本地或遠端。儘管社區應用程式已作為 對這項工作進行了研究，並被判定為對初學者非常友好的伺服器 應用程式 事實是，託管伺服器本身就是一項工作 需要經驗和知識。 市場已經發生了轉變 這種對產品即服務的應用是有充分理由的。在 寫這篇論文的時候，COVID-19 大流行迫使很多 員工遠端工作，並向市場表明 IT 並非易事 工作，並且 Web 服務是一個有吸引力的選擇。
+\end{quote}
+
+\begin{quote}
+▪ Lack of official Odoo PLM application for the community edition of Odoo. Although there is a substantial repertoire of community made applications for the community edition of Odoo the organization, description, integration, and support of this applications are spotted at best. Rather than rely on applications that might not keep up with the main software it was decided that it would be a fairer to the platform evaluation if it was based on official applications. I.e. it would be very unproductive to slap together a free solution just to depend on luck regarding how it is supported on the future. PLM is the focus here, so this is an unnegotiable situation.
+▪ 缺少Odoo社區版的官方OdooPLM應用程式。 儘管有大量的社區申請 Odoo的社區版組織、描述、集成和支援 充其量是被發現的。而不是依賴可能 跟不上主要軟體，決定它會更公平 平台評估，如果是基於官方申請的。即它會非常 拼湊一個免費的解決方案只是為了依靠運氣，這是徒勞的 它在未來得到支援。PLM是這裡的重點，所以這是一個不容商榷的問題 情況。
+\end{quote}
+
+
+\begin{quote}
+At the time of writing this work, Odoo allows you to select one of its extra features like PLM and use it for free for an indefinite amount of time on their cloud hosted servers. This is a very attractive option if the only focus of this work was PLM and manufacturing. However, the MES aspect of this work is highly dependent of other applications of Odoo which means that there is very little that can be done. To this end the experiment was carried out in the trial version of Odoo enterprise which allow the user to use the system without storage or application limitations for a period of 14 days all hosted in Odoo cloud servers (Figure 17).
+       在撰寫本文時，Odoo允許您選擇其額外功能之一，例如 PLM，並在其雲託管伺服器上無限期免費使用。這 如果這項工作的唯一重點是 PLM 和製造，則是一個非常有吸引力的選擇。 然而，這項工作的MES方面高度依賴於Odoo的其他應用 這意味著能做的很少。為此，進行了實驗 在Odoo企業版的試用版中，允許用戶在沒有 14 天的存儲或應用程式限制全部託管在 Odoo 雲伺服器中 （圖 17）。
+\end{quote}
+
+\subsection*{大標中的小標}
+5.2.2. Setings details that are relevant
+5.2.2. 相關的設置細節
+
+\begin{quote}
+A few details regarding the settings of Odoo are relevant to the proper function of its manufacturing functionalities. Namely enabling work orders in the manufacturing settings is an obligatory step for proper use of both work order items, workcenter items and operation items.
+       有關Odoo設置的一些細節與其正常功能有關 製造功能。即，在製造設置中啟用工作訂單是 正確使用工單專案、工作中心專案和操作的必要步驟 專案。
+\end{quote}
+
+\begin{quote}
+An assumption made for this work is that this is a holdover of the ERP origins of the software because it is rather unintuitive to not have this setting enabled by default if you are going to use Odoo to make any serious control on manufacturing. Regardless as of Odoo enterprise v14 this option can be set in the Settings > Manufacturing > Operations > Work Orders (Figure 28).
+       為這項工作所做的一個假設是，這是 ERP 起源的遺留物 軟體，因為預設情況下不啟用此設置是相當不直觀的，如果你是 將使用Odoo對製造進行任何嚴格的控制。無論從Odoo開始 enterprise v14 此選項可以在「設置」>「製造>操作」>“工作”中設置 訂單（圖 28）。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 231541.png}
+  \caption{Figure 28 Screenshot of the specific setting to be enabled 圖28 要啟用的特定設置截圖}
+  \label{fig:螢幕擷取畫面 2024-03-14 231541}
+\end{figure}
+
+\section*{大標}
+5.3. Building the company structure
+5.3. 構建公司結構
+
+\subsection*{大標中的小標}
+5.3.1. Users
+5.3.1. 使用者
+
+\begin{quote}
+Users are set and invited through the setting menu. It is possible to assign different levels of permissions regarding different aspects of the business operation. Messaging, permissions, 39 approvals, responsibilities are all assigned into a user. This is very convenient and can fall within the category of virtual item class even if it has limited use in the scope of manufacturing. Their creation is not strictly necessary, the software would run just fine having just me as a user with full administrator credentials, but for this simulation, 5 users were created as listed below to represent different employees within the company. The following (Figure 29) is a screenshot of my user account item and its ‘Asses Rights’ followed by one of the fictional users being created for the company (Figure 30).
+       通過設置功能表設置和邀請使用者。可以分配不同的級別 有關業務運營不同方面的許可權。消息傳遞、許可權、 39 批准、職責都分配給一個使用者。這很方便，可能會掉下來 在虛擬物品類的類別內，即使它在 製造業。它們的創建不是絕對必要的，軟體可以正常運行 僅自己作為具有完全管理員憑據的使用者，但對於此類比，有5個使用者 如下所示，代表公司內的不同員工。這 接下來（圖 29）是我的用戶帳戶項及其「評估許可權」的屏幕截圖 由為公司創建的虛構使用者之一（圖 30）。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 231651.png}
+  \caption{Figure 29 Screenshot of user account interface 圖29用戶介面截圖}
+  \label{fig:螢幕擷取畫面 2024-03-14 231651}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 231755.png}
+  \caption{Figure 30 Screenshot of second user account interface 圖30 第二個使用者介面截圖}
+  \label{fig:螢幕擷取畫面 2024-03-14 231755}
+\end{figure}
+
+\begin{quote}
+It is nice to point out how the two differ in access rights. Mary Fiction has been created in this example as an engineer and therefore most of her permissions are around the manufacturing procedure while she is denied access to other parts like Sales or Accounting.
+        很高興指出兩者在訪問許可權上的不同之處。Mary Fiction 已經創建 在此示例中，作為工程師，因此她的大部分許可權都圍繞著 製造程式，而她被拒絕訪問其他部分，如銷售或會計。
+\end{quote}
+
+\subsection*{大標中的小標}
+5.3.2. Workcenters and Equipement
+5.3.2. 工作中心和設備
+
+\begin{quote}
+Workcenters are quite flexible within Odoo in the sense that they can be changed and expanded as needed. One could create the workcenters after creating the product items to allow for reorganization of the shop floor once you gained some perspective on what the products will be in the end. However, for most scenarios this seems unrealistic since the workcenters are more rigid structures in the real world - they don’t change as much as the products since they tend to hold heavy machinery.
+       工作中心在Odoo中非常靈活，因為它們可以更改和 根據需要進行擴展。可以在創建產品項後創建工作中心 一旦你對什麼有了一定的瞭解，就允許對車間進行重組 產品將在最後。但是，對於大多數情況，這似乎是不現實的，因為 工作中心在現實世界中是更嚴格的結構 - 它們的變化不如 產品，因為它們往往可以容納重型機械。
+\end{quote}
+
+\begin{quote}
+In this simulation it was considered that the company already has 3 workcenters from the get-go and therefore the workcenters and machinery were created beforehand. This is more useful for possible readers interested in implementing Odoo as well as saving sometime.
+       在此類比中，我們認為該公司已經擁有 3 個工作中心，來自 因此，工作中心和機器是事先創建的。這是更多 對於有興趣實施Odoo並節省一些時間的讀者很有用。
+\end{quote}
+
+\begin{quote}
+We begin by creating the equipment we have. This is an item class that emphasizes in maintenance organization. The application responsible for managing equipment is the Maintenance App. The following image is an example of how Odoo portrays a 3D printer equipment item (Figure 31).
+       我們從創建我們擁有的設備開始。這是一個強調 維護組織。負責管理設備的應用程式是 維護應用程式。下圖是Odoo如何描繪3D印表機的示例 設備專案（圖 31）。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 232050.png}
+  \caption{Figure 31 Odoo 3D printer equipment item 圖31 Odoo3D印表機設備專案}
+  \label{fig:螢幕擷取畫面 2024-03-14 232050}
+\end{figure}
+
+\begin{quote}
+In addition to this 3D printer the following equipment were created to be used throughout the development/production process (Figure 32):
+       除了這台3D印表機之外，還創建了以下設備，以便在整個過程中使用 開發/生產過程（圖32）：
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 232156.png}
+  \caption{Figure 32 Overview of equipment items 圖32設備專案概覽}
+  \label{fig:螢幕擷取畫面 2024-03-14 232156}
+\end{figure}
+
+\begin{quote}
+This is where software limitations regarding PLM start to show. Although equipment items allow you some level of metadata (description text, responsible user, maintenance data and vendor). It does not allow for the uploading of files of any kind to be attached to the item class (machine manuals, reports etc). This is a substantial weakness, since file management is something quite unanimously considered a main aspect of PLM. This will be a recurring subject of this simulation since the number of Items that allow upload of files directly to them is limited in Odoo.
+       這就是有關 PLM 的軟體限制開始顯現的地方。雖然設備 項目允許您使用某種級別的元數據（描述文本、負責使用者、維護數據 和供應商）。它不允許上傳任何類型的檔以附加到專案 類（機器手冊、報告等）。這是一個很大的弱點，因為檔管理 是人們一致認為是 PLM 的一個主要方面。這將是一個經常性的 此類比的主題，因為允許直接將檔上傳到它們的項目數量 在Odoo中受到限制。
+\end{quote}
+
+\begin{quote}
+Now that the equipment has been created, their workcenters can be created. It is interesting to remember that the main use of the workcenter item is management of time and cost per hour. The idea is that equipment assigned to a WC should not be used at the same time and that ideally equipment that have widely different running costs should also be in different workcenters to allow for better time/cost tracking.
+       現在設備已經創建，他們的工作中心可以被建立了。有趣的是，要記住工作中心項目的主要用途是管理每小時的時間和成本。理念是分配給工作中心的設備不應該同時使用，最好的情況是具有顯著不同運行成本的設備也應該位於不同的工作中心，以便更好地跟踪時間/成本。
+\end{quote}
+
+\begin{quote}
+The following (Figure 33) is a an example of a workcenter item made to represent the prototyping station that is used throughout the development of the product.    
+        以下（圖33）是一個工作中心項目的示例，用來代表在產品開發過程中使用的原型製作站。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 232330.png}
+  \caption{Figure 33 Odoo Prototyping Station item representation 1 圖33：Odoo原型製作站項目表示1}
+  \label{fig:螢幕擷取畫面 2024-03-14 232330}
+\end{figure}
+
+\begin{quote}
+The reader will notice that this station (Figure 34) is where the 3D printers and CNC machine are located. Usually these machines would be separated in singular workcenters because of difference in operation costs and because they are for the most part independent however for the sake of this simulation this has been considered representative enough.
+       讀者會注意到這個站點（圖34）是3D打印機和數控機床所在的地方。通常這些機器會分開放置在單一的工作中心中，因為操作成本的差異以及它們大部分是獨立的。然而，出於這次模擬的目的，這已被認為足夠代表性。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 232520.png}
+  \caption{Figure 34 Prototyping Station item representation 2 圖34：原型製作站項目表示2}
+  \label{fig:螢幕擷取畫面 2024-03-14 232520}
+\end{figure}
+
+\begin{quote}
+The following workcenters have been also created for the simulation and filed with the necessary equipment:
+此模擬還創建了以下工作中心，並填入了必要的設備：
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 232641.png}
+  \caption{Figure 35 Overview of Workcenter items 圖35：工作中心項目概覽}
+  \label{fig:螢幕擷取畫面 2024-03-14 232641}
+\end{figure}
+
+\section*{大標}
+5.4. Development
+5.4. 開發
+
+\begin{quote}
+Now that the basic structure of the company has been recreated in the software, it is possible to commence the simulation process. At first, the focus is on the development aspect of a brand new product using Odoo (Figure 9) most noticeably, since this is the company first product to be created, a possible use of Odoo for organizing prototyping procedure is evaluated. This include the path from idea to design and prototype production. Then once the product has reached an acceptable result as a prototype, the work regarding the development of the production process will take place. The product development is considered successful once an official production run is done.
+      現在公司的基本結構已在軟件中重新建立，可以開始進行模擬過程了。首先，焦點是使用Odoo（圖9）的全新產品開發方面，特別是因為這是公司創建的第一個產品，因此評估了使用Odoo組織原型製作程序的可能性。這包括從想法到設計和原型生產的過程。然後，一旦產品作為原型達到可接受的結果，將進行生產流程的開發工作。當完成正式的生產批次時，產品開發被認為是成功的。
+\end{quote}
+
+\subsection*{大標中的小標}
+5.4.1. Idea - design - product prototype
+5.4.1. 想法 - 設計 - 產品原型
+
+\begin{quote}
+As explained in (Chapter 4) the idea for the product has already been stablished and initial design characteristics and basic product research have already been carried out. This is representative of an actual implementation of the Odoo software in the real world because although Odoo have good project management and communication applications, those are external to the inventory and manufacturing applications and, more importantly, share no integration with the engineering design CAD software. In this simulation, the idea has been put to paper and have been turned into a CAD design using the Solidworks software generating a CAD file locally stored in the engineer computer.
+        如第4章所述，產品的想法已經確立，並且已經進行了初始設計特性和基本產品研究。這代表了Odoo軟件在現實世界中的實際應用，因為儘管Odoo具有良好的項目管理和溝通應用，但這些應用是外部的庫存和製造應用，更重要的是，它們與工程設計CAD軟件沒有集成。在這次模擬中，想法已被紙面化並使用Solidworks軟件轉換為CAD設計，生成一個在工程師電腦上本地存儲的CAD文件。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 232808.png}
+  \caption{Figure 36 Sectioned diagram regarding product development 圖36：關於產品開發的剖面圖}
+  \label{fig:螢幕擷取畫面 2024-03-14 232808}
+\end{figure}
+
+\begin{quote}
+It is at this point that the utilization of the Odoo software can officially take place. The first step is to understand what the subject of production is as far as product items are concerned. There are two takes in how to do this:        
+在這一點上，Odoo軟件的利用正式開始。第一步是理解就產品項目而言生產的主題是什麼。在如何做這件事情上有兩種觀點：
+\end{quote}
+
+\begin{quote}
+▪ The first is to consider the prototype an early revision of the final product, that is the prototype item created in Odoo would be the same as the final product item with revisions been carried out during development. That would be the recommended if the prototype is achieved by identical means to the ones used in the final production. An example of this approach would be if the product is simple enough that product and production aspects of development can be carried out together.
+- 第一種是將原型視為最終產品的早期版本，也就是說，在開發過程中對原型進行修改，而Odoo中創建的原型項目將與最終產品項目相同。如果原型是通過與最終生產使用的相同手段達到的，這將是推薦的方式。這種方法的一個例子是，如果產品足夠簡單，開發的產品和生產方面可以一起進行。
+\end{quote}
+
+\begin{quote}
+▪ The second one is to consider the prototype as a separate item from the final product - this is the path was taken in this simulation. The main reason for this decision was that the ways in which our prototype production were carried out differed from the final production since 3D printing was used for the prototypes.
+- 第二種觀點是將原型視為與最終產品分開的項目 - 這是本次模擬中採取的路徑。這個決定的主要原因是我們的原型生產方式與最終生產方式不同，因為原型使用了3D打印。
+\end{quote}
+
+\begin{quote}
+Starting from the root, a product item called PROTO Alpha Case (Figure 37) was created (Alpha Case being the name of the product). From this point on we will refer to prototype products as ‘proto item’. As we can see, this allows for a nice representation of the proto item. Since it is a prototype, it will not be marked as something that can be sold or purchased, and sales price will be set to 0$ since it is unimportant. This proto item will be used to connect the different aspects of its development but for now it is left alone.
+       從根本上開始，創建了一個名為PROTO Alpha Case（圖37）的產品項目（Alpha Case是產品的名稱）。從這一點開始，我們將將原型產品稱為“proto項目”。正如我們所看到的，這使得proto項目有了一個很好的表示。由於它是一個原型，因此不會被標記為可以出售或購買的東西，銷售價格將設置為0美元，因為這是無關緊要的。這個proto項目將用於連接其開發的不同方面，但現在它被獨自留下。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 232920.png}
+  \caption{Figure 37 Image of the prototype product item 圖37：原型產品項目的圖像}
+  \label{fig:螢幕擷取畫面 2024-03-14 232920}
+\end{figure}
+
+\begin{quote}
+As we have previously stablished in chapter 3, the product will consist of 3 pieces Part A, Part B and Part C. These need to be prototyped and created as products as well so that they can be added to the bill of materials of the PROTO Alpha Case. Finally, it was decided to use specific plastic filaments (see section 4.1.1) for the 3D printing of PROTO Part A and PROTO Part B and C and these need to be added as products as well (Figure 38).
+      正如我們在第3章中先前所確立的，產品將由3個部分組成，即零件A、零件B和零件C。這些部分需要進行原型設計並創建為產品，以便它們可以添加到PROTO Alpha Case的物料清單中。最後，決定使用特定的塑料填料（參見第4.1.1節）用於PROTO零件A和PROTO零件B和C的3D打印，這些也需要添加為產品（圖38）。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233019.png}
+  \caption{Figure 38 Overview of Product class items for prototype 圖38：原型產品類項目概觀}
+  \label{fig:螢幕擷取畫面 2024-03-14 233019}
+\end{figure}
+
+\begin{quote}
+At this point, the relevant product items for the prototyping of the Alpha Case were finished, which makes possible the creation of the its relevant BOMs. There are 3 of them and they follow the structure in (Figure 39):
+       在這一點上，用於原型Alpha Case的相關產品項目已經完成，這使得可以創建其相關的物料清單。共有3個物料清單，它們遵循圖39中的結構：
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233127.png}
+  \caption{Figure 39 BOM diagrams for prototyping 圖39：原型製作的物料清單圖表}
+  \label{fig:螢幕擷取畫面 2024-03-14 233127}
+\end{figure}
+
+\begin{quote}
+Something worth mentioning is that Odoo used the kit option (Figure 40) on the item to infer that this product is a component of another product. This is very interesting because it automatically creates dependencies between the product items for production.
+       值得一提的是，Odoo在該項目上使用了套件選項（圖40），以推斷該產品是另一個產品的組件。這非常有趣，因為它自動為生產的產品項目之間創建了依賴關係。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233230.png}
+  \caption{Figure 40 Image of the prototype product BOM (Part-A) 圖40：原型產品物料清單圖（零件A）}
+  \label{fig:螢幕擷取畫面 2024-03-14 233230}
+\end{figure}
+
+\begin{quote}
+As the reader can see (Figure 41), while making the BOMs it is simple to create the specific operation items necessary for the manufacturing procedure and specify its work center. One of the best functionalities regarding MES in Odoo is the ability to track the time of operations based on default duration. This can be dynamically changed based on tracked time or set manually. It is also in the operation item that we can add instruction files for the operation. Even though it is limited to PDF text or a link to a google slides file, this is one of the few opportunities presented by Odoo for file management connected directly to an item.
+       正如讀者所見（圖41），在製作物料清單時，可以輕鬆地創建製造過程所需的具體操作項目並指定其工作中心。Odoo中關於MES的最佳功能之一是根據默認持續時間跟踪操作的時間。這可以根據跟踪的時間動態更改，也可以手動設置。在操作項目中，我們還可以為操作添加指示文件。儘管這僅限於PDF文本或指向Google幻燈片文件的鏈接，但這是Odoo提供的與項目直接相關的文件管理的少數機會之一。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233349.png}
+  \caption{Figure 41 Image of operation item as presented by Odoo (BOM Part-A) Odoo呈現的操作項目圖（BOM零件-A）的圖像41}
+  \label{fig:螢幕擷取畫面 2024-03-14 233349}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233510.png}
+  \caption{Figure 42 Overview of BOMs created for prototyping BOM零件原型製作的概述圖42}
+  \label{fig:螢幕擷取畫面 2024-03-14 233510}
+\end{figure}
+
+\begin{quote}
+Speaking of this lack of upload opportunities, we can notice that while making the product item there was no way to directly upload files regarding the product to the item. In our case, we have the CAD files regarding the parts that we are prototyping, to not be able to upload these files in any way would be a complete failure from a PLM perspective. Thankfully there is a workaround. As explained in section 5.1.3.5, the ECO is an item that is linked to either product items or BOMs and allow uploaded files to be attached to it. It is a minor workaround but basically means that if we want to upload our CAD files to the items in any significative manner, we need to emit an ECO even if there is no “change” being made.
+談到這種缺乏上傳機會，我們可以注意到，在製作產品項目時，沒有直接上傳有關產品的文件到項目的方法。在我們的情況下，我們有關於我們正在原型製作的零件的CAD文件，如果無法以任何方式上傳這些文件，從產品生命週期管理（PLM）的角度來看，這將是一個完全的失敗。幸運的是，有一個解決方法。如第5.1.3.5節所述，ECO是一個與產品項目或物料清單相關聯的項目，允許上傳的文件附加到它上面。這是一個小小的解決方案，但基本上意味著如果我們想以任何重要的方式將CAD文件上傳到項目中，即使沒有進行“更改”，我們也需要發出一個ECO。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233614.png}
+  \caption{Figure 43 ECO example 圖43：ECO示例}
+  \label{fig:螢幕擷取畫面 2024-03-14 233614}
+\end{figure}
+
+\begin{quote}
+It can only be assumed that this was part of Odoo’s team strategy to implement PLM as an external application in its ERP base. It is reasonable, but still, this is one of the few aspects of this software interface that is not as straightforward. It is an extremely valuable feature, but it is somewhat hidden. The documents icon appears in the top right corner (Figure 43) only after the ECO is created and saved.
+       可以假設這是Odoo團隊實施PLM作為其ERP基礎的外部應用程序的一部分戰略。這是合理的，但仍然，這是該軟件界面中少數不那麼直接的方面之一。這是一個非常有價值的功能，但它有些隱藏。只有在創建並保存ECO後，文件圖標才會出現在右上角（圖43）。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233714.png}
+  \caption{Figure 44 Overview of attached files to ECO 圖44：附加到ECO的文件概觀}
+  \label{fig:螢幕擷取畫面 2024-03-14 233714}
+\end{figure}
+
+\begin{quote}
+Since there is no direct integration between Odoo and the CAD software, uploading the file do not cause any automatic change to the product metadata. This is not ideal from the PLM perspective, still, it is a well implemented feature. By allowing product items to link directly to not only one existing ECO but to the list of all ECOs ever applied to the item, the software does well in tracking version control and development.
+       由於Odoo與CAD軟件之間沒有直接集成，上傳文件不會導致產品元數據的任何自動更改。從PLM的角度來看，這並不理想，但它是一個很好實現的功能。通過允許產品項目直接連接到不僅是一個現有的ECO，而且是所有曾應用於該項目的ECO的列表，軟件在跟踪版本控制和開發方面表現得很好。
+\end{quote}
+
+\begin{quote}
+Something interesting that can be done for the sake of process control is adding quality control points to operations. This allows the responsible personnel to give feedback during the production regarding concerning points to the engineering team. In our case, we are concerned about 3D printing warping. This is something that happens when temperature varies to much during the 3D printing procedure. To this end a Quality Control Point item will be created (Figure 45) that will enquire with the operator to check if there is warping in the piece and mark pass or fail. 
+       為了進行過程控制，可以做一些有趣的事情是在操作中添加質量控制點。這允許負責的人員在生產過程中就工程團隊關注的點進行反饋。在我們的情況下，我們擔心的是3D打印翹曲。當3D打印過程中的溫度變化太大時，這種情況就會發生。為此，將創建一個質量控制點項目（圖45），該項目將詢問操作員是否在零件中有翹曲，並標記通過或失敗。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233844.png}
+  \caption{Figure 45 Quality Control Point item for the prototype production 圖45：原型生產的質量控制點項目}
+  \label{fig:螢幕擷取畫面 2024-03-14 233844}
+\end{figure}
+
+\begin{quote}
+The last step of a prototype cycle would be the production of prototypes for testing and evaluation. Production is something quite straightforward in Odoo and really the point where everything we have done before come together. The metadata and the items that have been created allow us to start the Manufacturing Order (MO) (Figure 46). This, in turn, pull the necessary workorders from the operations and components listed in the BOM. The workorders appear for manufacturing operators and production can commence/be tracked.
+        原型週期的最後一個步驟將是生產用於測試和評估的原型。在Odoo中，生產是非常直接的，真正將我們之前所做的一切結合在一起的地方。已經創建的元數據和項目使我們能夠開始製造訂單（MO）（圖46）。這又從操作中拉出必要的工單和物料清單中列出的組件。工單出現在製造操作員面前，生產可以開始/被跟踪。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 233954.png}
+  \caption{Figure 46 Depiction of the manufacturing order 圖46：製造訂單的描繪}
+  \label{fig:螢幕擷取畫面 2024-03-14 233954}
+\end{figure}
+
+\begin{quote}
+For the most part this operation is very well automated and clear. There are however a few problems that are result of structural changes from Odoo V13 to Odoo V14. For a long time, the software ordered the operations to be carried out using an extra item class called ‘Route’. These were a fundamental part of how the product moved within the inventory and manufacturing, but for some reason, was dropped in the manufacturing aspect of the new version in favor of a simplified sequence data built into the BOM. As of the writing of this work, there have been reports of problems and confusions regarding how that works, which are aggravated by the fact that material explaining the use of this functionality are either nonexistent or still referencing old versions of the software (in which ‘routes’ are still in use).
+        在很大程度上，這個操作是非常自動化和清晰的。然而，由於從Odoo V13到Odoo V14的結構性更改，出現了一些問題。很長一段時間以來，軟件使用一個名為“路線”的額外項目類來排序要執行的操作。這些是產品在庫存和製造過程中移動的基本部分，但由於某種原因，在新版本的製造方面被放棄，而是採用了內置於物料清單中的簡化順序數據。截至本文撰寫時，已經有報告稱該功能的使用存在問題和困惑，這些問題更加嚴重，因為解釋如何使用此功能的材料要麼不存在，要麼仍在引用軟件的舊版本（其中“路線”仍在使用）。
+\end{quote}
+
+\begin{quote}
+The avid reader will notice in Figure 47 that the order in which operations are being made available are not in the correct sequence. This is due to exactly this problem and for now the  only solution is to count on the awareness of the operators regarding the order of production or manually scheduling the operations in the plan tab. During the period of research for this work (before Odoo V14) familiarization experiments were made in which there were no problem of this nature. In addition, there are examples online even from Odoo website demonstrating the use of routes and how they are useful for this exact situation.
+       熱心的讀者將在圖47中注意到操作的提供順序不正確。這正是由於這個問題，目前唯一的解決方案是依靠操作員對生產順序的認識，或者在計劃選項卡中手動安排操作。在進行本研究期間（Odoo V14之前），進行了熟悉化實驗，沒有出現這種性質的問題。此外，甚至從Odoo網站上也有示例展示了路線的使用以及它們如何對這種準確情況有用。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-14 234058.png}
+  \caption{Figure 47 Overview of the resulted Work Orders 圖47：生成的工單概觀}
+  \label{fig:螢幕擷取畫面 2024-03-14 234058}
+\end{figure}
+
+\begin{quote}
+The problem has been reported by other people (Figure 48) to the Odoo company and is been and hopefully it will be resolved shortly (this is after all a extremelly recent version of the software). That been said, it is a problem even if it is a minor one.
+       這個問題已被其他人（圖48）報告給Odoo公司，並且希望它將很快得到解決（畢竟這是一個非常新的軟件版本）。儘管如此，這仍然是一個問題，即使它是一個較小的問題。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-09 183538.png}
+  \caption{Figure 48 Image of Odoo forum question regarding routes Odoo論壇中關於路線的問題的圖片，見圖48。}
+  \label{fig:螢幕擷取畫面 2024-03-09 183538}
+\end{figure}
+
+\begin{quote}
+The manufacturing process was repeated 7 times (Figure 49) to simulate a small batch of prototypes for testing and tolerance checking. It is rare to get a perfect prototype in the first batch, for this reason it was chosen to represent correction through the simulation. In this simulation this problem was a fit problem that resulted in a change of dimension of PROTO Part A.
+       圖48顯示了一張關於Odoo論壇問題的圖片，涉及路線。製造過程重複了7次（圖49），以模擬一小批原型進行測試和容差檢查。很少會在第一批中得到完美的原型，因此選擇通過模擬來表示校正。在這個模擬中，這個問題是一個適合問題，導致PROTO零件A的尺寸發生變化。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-09 184324.png}
+  \caption{Figure 49 Overview of the products after manufacturing 圖49顯示了製造完成後產品的概述。}
+  \label{fig:螢幕擷取畫面 2024-03-09 184324}
+\end{figure}
+
+\begin{quote}
+This give us the opportunity to use ECOs for their actual purpose, stablish and control a change to the product item. The changes to be carried out were on the CAD file regarding the product item. As before we can start the ECO and fill in the description, then the files are uploaded, and the ECO (Figure 50) goes through necessary validation before been made effective.
+       這給了我們使用ECO的機會，以其實際目的，即確立並控制對產品項目的更改。要執行的更改涉及產品項目的CAD檔案。與之前一樣，我們可以啟動ECO並填寫描述，然後上傳文件，經過必要的驗證後ECO（圖50）才會生效。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-09 184431.png}
+  \caption{Figure 50 Depiction of the validation of the ECO 圖50展示了對ECO進行驗證的過程。}
+  \label{fig:螢幕擷取畫面 2024-03-09 184431}
+\end{figure}
+
+\begin{quote}
+The validation procedure basically is set to ask for validation of someone with proper access permissions or specific personnel. In this case, the master account was used to validate and make effective as can be seen from the log in the right side of the image. Once the change  is applied you can see that the product item version has been iterated to version 2 as well as a new ECO has been added to the list of ECOs linked to the item (Figure 51).
+       驗證程序基本上設置為要求擁有適當訪問權限或特定人員的驗證。在這個例子中，主帳戶被用來進行驗證並生效，這可以從圖像右側的日誌中看到。一旦更改應用，您可以看到產品項目版本已經迭代到版本2，同時一個新的ECO已經添加到與該項目相關的ECO列表中（見圖51）。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-09 184522.png}
+  \caption{Figure 51 Depiction of changes provoked by the ECO to product item 圖51展示了由ECO引起的對產品項目的更改。}
+  \label{fig:螢幕擷取畫面 2024-03-09 184522}
+\end{figure}
+
+\begin{quote}
+That update is followed by another batch of prototypes, the cycle would continue until the prototypes produced satisfy the criteria stablished by the design team. In the case of this simulation it was assumed that one correction was representative enough of this process. This finalizes the development from idea to prototype.
+       這個更新後又跟著另一批原型，這個週期將持續，直到生產的原型滿足設計團隊設定的標準。在這個模擬中，假設一次修正足以代表這個過程。這將從構想到原型的發展最終完成。
+\end{quote}
+
+\subsection*{大標中的小標}
+5.4.2. Process Plan - Production Test Run - Production
+5.4.2. 流程計劃 - 生產測試運行 - 生產
+
+\begin{quote}
+Now that the prototype phase is complete the focus will shift to the process. As stablished before, it was decided to separate the prototype products from the final product item to isolate the product from the production process during the development. This way many aspects of development of the product could be evaluated in an ordered manner. Now that the process is been developed it seems reasonable to create the product items that will represent the final products since the product of a successful run of the process will be the production ready samples of it (Figure 52).
+       現在原型階段已經完成，焦點將轉移到流程上。如之前所述，決定在開發過程中將原型產品與最終產品項目分開，以隔離產品免受生產過程的影響。這樣可以有序地評估產品開發的許多方面。現在流程已經開發，因此創建將代表最終產品的產品項目似乎是合理的，因為成功運行該流程的產品將是其生產就緒樣品（見圖52）。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-09 184713.png}
+  \caption{Figure 52 Sectioned diagram regarding Process development 圖52 關於流程開發的分段圖解}
+  \label{fig:螢幕擷取畫面 2024-03-09 184713}
+\end{figure}
+
+\begin{quote}
+Other product items that created were the raw materials for the injection molding (which are plastic pellets that are fed into the machine to be melted and injected). All that was done in identical manner to when we create the prototype products with the exception that the Alpha case (Figure 53) now is marked as sellable and its sale costs are now relevant (Figure 54).
+       另外創建的產品項目是用於注塑的原材料（這些是塑料粒子，被投入機器中熔化和注入）。所有這些都是以相同的方式進行的，與我們創建原型產品時相同，唯一的例外是Alpha機殼（見圖53）現在被標記為可出售，其銷售成本現在是相關的（見圖54）。
+\end{quote}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\linewidth]{downloads/螢幕擷取畫面 2024-03-09 184851.png}
+  \caption{Figure 53 Render of how the final product should look like 圖53 最終產品應該呈現的效果圖}
+  \label{fig:螢幕擷取畫面 2024-03-09 184851}
+\end{figure}
+
 
 
