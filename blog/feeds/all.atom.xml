@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-12T04:58:25+08:00</updated><entry><title>2024 Spring 課程w4</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-29T17:31:00+08:00</published><updated>2024-04-12T04:57:12+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-29:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-12T05:42:03+08:00</updated><entry><title>2024 Spring 課程w4</title><link href="./2024-Spring-w4-blog-tutorial.html" rel="alternate"></link><published>2024-03-29T17:31:00+08:00</published><updated>2024-04-12T04:57:12+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-29:./2024-Spring-w4-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -13,10 +13,15 @@
 &lt;h1&gt;w3-1 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料。&lt;/h1&gt;
 &lt;p&gt;負責第三段 43-65page 由41023110 (introduction_orig.txt,
 使用了chatgpt與劍橋辭翻譯，並用word編排翻譯段落。&lt;/p&gt;
-&lt;h1&gt;w3-2 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料。&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程w2</title><link href="./2024-Spring-w2-blog-tutorial.html" rel="alternate"></link><published>2024-03-08T18:40:00+08:00</published><updated>2024-04-12T04:58:17+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-Spring-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;h1&gt;w3-2 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料。&lt;/h1&gt;</content><category term="w3"></category><category term="網誌編寫"></category></entry><entry><title>2024 Spring 課程w2</title><link href="./2024-Spring-w2-blog-tutorial.html" rel="alternate"></link><published>2024-03-08T18:50:00+08:00</published><updated>2024-04-12T05:42:03+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-08:./2024-Spring-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
+&lt;h1&gt;w2-1 說明甲班第一組組長如何建立 midag1 Team, 並利用 Codespaces 維護 2a-midag1 分組倉儲&lt;/h1&gt;
+&lt;p&gt;用github classroom建立組別倉儲，組長在or create a new team處以midag X 來稱謂組別名稱並+create team創立。在組別創立後，組員各自去join進入組別內。倉儲完全建立好後去到倉儲的settings並選取pages就可進入主分支。啟動完github pages就可以做code，並使用codespaces來維護內容。在codespaces中有許多終端機許多埠號資源可使用，不需要再公用443。啟動終端機要先安裝模組。使用者+執行+檔案位置=chmod u+x init_replit執行，執行安裝好後會直接給予2記憶體容量。但沒有run了，所以要在自己設定python3 main.py執行動態，利用8080幫我們開啟瀏覽器。連結埠號會呈現亂碼，所以別人無法進入。login進入動態後就可更改內容。
+終端機每個人每月都有120code小時。要push倉儲要新增終端機後，進行git add-&amp;gt;git commit"網頁標題"，執行後就會直接推上不需要在轉檔。
+啟動靜態要在新增終端機，有python3內建模組了就可以直接http.server直接啟動埠號，8000會自動開啟瀏覽器連結，就可以直接進入到靜態。
+用完codespaces要在關閉code讓計時暫停。&lt;/p&gt;
 &lt;h1&gt;w2-2 如何利用近端可攜環境與外部 IPv4 開啟動態網站。&lt;/h1&gt;
 &lt;p&gt;用ssh來啟動它，要克隆它去到靜態拉出putty，近端中沒有任何settings。建立之後會存在系統登錄閘，在黑窗用regedit機制跑可以使三個倉儲同步，就不怕code用完。並且有外擴ipv4等同有一個伺服器，就算在遠端去到防火牆設置ip就能進入。
 用PuTTY Configuration輸入ip定github.com，在sessions也是輸入github.com，並到ssh把剛設立的ppk給予它。倉儲要在常用資料位置，讓他可以隨時啟動，啟動近端時目錄可以方便鎖定。
@@ -24,7 +29,7 @@
 save後open後會給予一把key，此key連線時是無法取得的。存取github.com的檔案要匯出在可攜環境。
 若有對應的key並有open過了兩條件，那是可以有權限用ssh抓取下來。改版後就可以推回倉儲。在近端就自由了，可以啟動動態進入。之後小組可以各自獨立編輯，不會受他人干擾。
 若要讓組員連接過來，要先改密碼之後查詢ip，並複製到槽中的init.py去修改，丟入外部ip儲存，使其電腦變成一台主機。在cms一次組員就可以動作了&lt;/p&gt;
-&lt;h1&gt;w2-1如何用Github Codespaces維護網站內容&lt;/h1&gt;
+&lt;h1&gt;w2-3如何用Github Codespaces維護網站內容&lt;/h1&gt;
 &lt;p&gt;每一個倉儲都有&lt;code&gt;，在完成建立組倉儲後有code就可以改版。
 任何一個倉儲中都有配置code，codespaces是一個線上整合環境與replit相似，只是介面是另一個配置。在倉儲下可以建一個在主分之來建codespaces。
 先啟動動態在功能表還原終端系統，並新增一個終端系統，有兩意思給指令分別啟動動態與靜態。
