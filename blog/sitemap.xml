@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2024-04-12T08:56:19-00:00</lastmod>
+<lastmod>2024-04-12T10:17:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2024-04-12T08:56:19-00:00</lastmod>
+<lastmod>2024-04-12T10:17:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2024-04-12T08:56:19-00:00</lastmod>
+<lastmod>2024-04-12T10:17:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2024-04-12T08:56:19-00:00</lastmod>
+<lastmod>2024-04-12T10:17:12-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -53,8 +53,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./2024-Spring-w3-blog-tutorial.html</loc>
-<lastmod>2024-04-12T08:54:30+08:00</lastmod>
+<loc>./2024-協同課程a-w3-41023110.html</loc>
+<lastmod>2024-04-12T10:15:48+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -70,6 +70,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>./2024-Spring-w1-blog-tutorial.html</loc>
 <lastmod>2024-04-12T08:54:12+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./category/a-w3-41023110.html</loc>
+<lastmod>2024-04-12T10:15:48+08:06</lastmod>
+<changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -90,13 +97,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./category/w2-2.html</loc>
 <lastmod>2024-04-12T16:05:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./category/w3.html</loc>
-<lastmod>2024-04-12T08:54:30+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
