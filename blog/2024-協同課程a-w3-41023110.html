@@ -59,7 +59,7 @@
 <meta property="og:url" content="./2024-協同課程a-w3-41023110.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-04-12 16:05:00+08:00"/>
-<meta property="article:modified_time" content="2024-04-15 12:41:57.642246+08:00"/>
+<meta property="article:modified_time" content="2024-04-15 13:25:24.089482+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="a-w3-41023110"/>
 <meta property="article:tag" content="網誌編寫 41023110"/>
@@ -74,7 +74,7 @@
   "name": "2024 協同課程a-w3",
   "headline": "2024 協同課程a-w3",
   "datePublished": "2024-04-12 16:05:00+08:00",
-  "dateModified": "2024-04-15 12:41:57.642246+08:00",
+  "dateModified": "2024-04-15 13:25:24.089482+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -246,6 +246,10 @@ init_mathjax();
 可以把組員的倉儲抓下來。在個人更新時可以分段抓取，未處理完的章節可以不引進。在git push後不只建了目錄還會動gitmodules檔案，待第二個人還沒建子模組前就刻隆下來，將個人倉儲加為子模組之後，就要處理.gitmodules的衝突。</p>
 <h1>w3-2 將組員的個人倉儲設為分組倉儲子模組</h1>
 <p>已建立組別倉儲，利用倉儲對應的codespaces下git submodule add。確認git status分支是否跟主分支是同步的，在用ls-l秀出內容後clear下來。接著用git submodule add+倉儲網址+git+學號，指令意思是必須在分組倉儲目錄新增一個子模組，其中子模組要的資料在複製的網址中取得，並打上目錄名稱。成功克隆後add在commit推上去，推上後回到倉儲確認有子模組資料加入。其中子模組是有版本的，意思是可以開發跟推出同步進行，版本可自行決定公布。</p>
+<h1>w3-使用 Gitpod 維護個人網站</h1>
+<p>進入Gitpod連結登陸github帳號。利用倉儲網址打開，裡面沒有對應的模組，所以要先chmod u+x init_replit安裝模組。其中給予的資源並不輸codespaces，執行速度依樣快速。照樣打開python3，並且也有多的終端機，程式一樣會自動開啟瀏覽器，就可以直接進入編輯。若假如沒有下載子模組，Gitpod一樣會幫忙列出目錄，比codespaces稍好些。並且網址也是亂碼式保全功能。
+要看靜態，新增一個終端機，然後用python3執行模組。啟動http server，直接啟動8000埠號瀏覽器幫你開啟，open就可看到靜態。
+要關閉執行，一樣在Gitpod.io儀錶板，可看到登陸與改變內容，需要關閉點stop就會停止計算時間。</p>
             </section>
 
             <section class="post-info">
