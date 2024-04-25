@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - a-w3-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/a-w3-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-04-15T13:25:24+08:00</updated><entry><title>2024 協同課程a-w3</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w3-41023110.html" rel="alternate"></link><published>2024-04-12T16:05:00+08:00</published><updated>2024-04-15T13:25:24+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w3-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - a-w3-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/a-w3-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-04-25T16:32:40+08:00</updated><entry><title>2024 協同課程a-w3</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w3-41023110.html" rel="alternate"></link><published>2024-04-12T16:05:00+08:00</published><updated>2024-04-25T16:32:40+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w3-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -18,4 +18,8 @@
 &lt;h1&gt;w3-使用 Gitpod 維護個人網站&lt;/h1&gt;
 &lt;p&gt;進入Gitpod連結登陸github帳號。利用倉儲網址打開，裡面沒有對應的模組，所以要先chmod u+x init_replit安裝模組。其中給予的資源並不輸codespaces，執行速度依樣快速。照樣打開python3，並且也有多的終端機，程式一樣會自動開啟瀏覽器，就可以直接進入編輯。若假如沒有下載子模組，Gitpod一樣會幫忙列出目錄，比codespaces稍好些。並且網址也是亂碼式保全功能。
 要看靜態，新增一個終端機，然後用python3執行模組。啟動http server，直接啟動8000埠號瀏覽器幫你開啟，open就可看到靜態。
-要關閉執行，一樣在Gitpod.io儀錶板，可看到登陸與改變內容，需要關閉點stop就會停止計算時間。&lt;/p&gt;</content><category term="a-w3-41023110"></category><category term="網誌編寫 41023110"></category></entry></feed>
+要關閉執行，一樣在Gitpod.io儀錶板，可看到登陸與改變內容，需要關閉點stop就會停止計算時間。&lt;/p&gt;
+&lt;h1&gt;有關 LaTeX 轉 pdf&lt;/h1&gt;
+&lt;p&gt;在協同分組報告製作中，使用LaTeX進行最終的文件製作是一種常見的做法。為了在Windows系統中進行編譯，必須下載並安裝LaTeX程序。報告的主要內容通常放在團隊的Git倉庫中的downloads資料夾下。每個組員被分配了特定的任務，例如撰寫摘要、引言等。任務分配完成後，組員需要將自己的工作上傳到團隊的Git倉庫中，以便其他成員可以查看和整合。在上傳之前，需要確保更新了最新的版本，並執行必要的編譯步驟。整個過程需要團隊成員之間的密切合作和有效的溝通，以確保最終的報告質量和準確性。&lt;/p&gt;
+&lt;h1&gt;設定網志&lt;/h1&gt;
+&lt;p&gt;在設定網誌時，首先需要了解網誌的原始文稿通常存放在Markdown目錄下，轉換為HTML檔案後存放在Blog目錄下。使用Pelican套件進行轉換，並根據不同需求設定不同的配置檔案，如local_publishconf.py和publishconf.py。這些配置檔案包含了網址、作者、網誌標題等信息，並根據需求設置絕對或相對路徑。另外，網誌內容需要按照一定的格式編寫，包括日期、標題、摘要、內容等。完成編寫後，使用gen_blog工具進行轉換，確認無誤後提交到GitHub上。&lt;/p&gt;</content><category term="a-w3-41023110"></category><category term="網誌編寫 41023110"></category></entry></feed>
