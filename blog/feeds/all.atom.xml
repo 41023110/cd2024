@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-25T15:50:07+08:00</updated><entry><title>2024 協同課程a-w4</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w4-41023110.html" rel="alternate"></link><published>2024-04-12T16:30:00+08:00</published><updated>2024-04-15T12:45:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w4-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-25T16:03:55+08:00</updated><entry><title>2024 協同課程a-w4</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w4-41023110.html" rel="alternate"></link><published>2024-04-12T16:30:00+08:00</published><updated>2024-04-25T16:03:55+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w4-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
 &lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;
@@ -25,11 +25,11 @@
 &lt;h1&gt;w3-使用 Gitpod 維護個人網站&lt;/h1&gt;
 &lt;p&gt;進入Gitpod連結登陸github帳號。利用倉儲網址打開，裡面沒有對應的模組，所以要先chmod u+x init_replit安裝模組。其中給予的資源並不輸codespaces，執行速度依樣快速。照樣打開python3，並且也有多的終端機，程式一樣會自動開啟瀏覽器，就可以直接進入編輯。若假如沒有下載子模組，Gitpod一樣會幫忙列出目錄，比codespaces稍好些。並且網址也是亂碼式保全功能。
 要看靜態，新增一個終端機，然後用python3執行模組。啟動http server，直接啟動8000埠號瀏覽器幫你開啟，open就可看到靜態。
-要關閉執行，一樣在Gitpod.io儀錶板，可看到登陸與改變內容，需要關閉點stop就會停止計算時間。&lt;/p&gt;</content><category term="a-w3-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w2.</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w2.-41023110.html" rel="alternate"></link><published>2024-03-29T17:18:00+08:00</published><updated>2024-04-15T12:42:04+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-29:./2024-協同課程a-w2.-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+要關閉執行，一樣在Gitpod.io儀錶板，可看到登陸與改變內容，需要關閉點stop就會停止計算時間。&lt;/p&gt;</content><category term="a-w3-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w2.</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w2.-41023110.html" rel="alternate"></link><published>2024-03-29T17:18:00+08:00</published><updated>2024-04-25T15:52:26+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-03-29:./2024-協同課程a-w2.-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
-&lt;h1&gt;w2-4如何用Github Codespaces維護網站內容&lt;/h1&gt;
+&lt;h1&gt;w2-4如何用Github Codespaces維護網站內容。&lt;/h1&gt;
 &lt;p&gt;每一個倉儲都有&lt;code&gt;，在完成建立組倉儲後有code就可以改版。
 任何一個倉儲中都有配置code，codespaces是一個線上整合環境與replit相似，只是介面是另一個配置。
 在倉儲下可以建一個在主分之來建codespaces。
