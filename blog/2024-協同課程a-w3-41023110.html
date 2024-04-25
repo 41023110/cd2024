@@ -59,7 +59,7 @@
 <meta property="og:url" content="./2024-協同課程a-w3-41023110.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-04-12 16:05:00+08:00"/>
-<meta property="article:modified_time" content="2024-04-25 16:39:27.054183+08:00"/>
+<meta property="article:modified_time" content="2024-04-25 17:57:42.466487+08:00"/>
 <meta property="article:author" content="./author/kmol.html">
 <meta property="article:section" content="a-w3-41023110"/>
 <meta property="article:tag" content="網誌編寫 41023110"/>
@@ -74,7 +74,7 @@
   "name": "2024 協同課程a-w3",
   "headline": "2024 協同課程a-w3",
   "datePublished": "2024-04-12 16:05:00+08:00",
-  "dateModified": "2024-04-25 16:39:27.054183+08:00",
+  "dateModified": "2024-04-25 17:57:42.466487+08:00",
   "author": {
     "@type": "Person",
     "name": "kmol",
@@ -247,8 +247,12 @@ init_mathjax();
 <h1>w3-2 將組員的個人倉儲設為分組倉儲子模組</h1>
 <p>已建立組別倉儲，利用倉儲對應的codespaces下git submodule add。確認git status分支是否跟主分支是同步的，在用ls-l秀出內容後clear下來。接著用git submodule add+倉儲網址+git+學號，指令意思是必須在分組倉儲目錄新增一個子模組，其中子模組要的資料在複製的網址中取得，並打上目錄名稱。成功
 克隆後add在commit推上去，推上後回到倉儲確認有子模組資料加入。其中子模組是有版本的，意思是可以開發跟推出同步進行，版本可自行決定公布。</p>
-<h1>w3-使用 Gitpod 維護分組網站</h1>
+<h1>w3-3 如何在 Replit 維護分組倉儲</h1>
+<p>處理與Git和SSH相關的操作。獲取和安裝特定的子模塊，並準備環境以啟用編輯功能的步驟。在配置文件中權限很重要。接著創建和管理SSH密鑰以及將公鑰添加到特定的帳戶中。再來如何在Git中進行提交，並解決了由於權限問題和衝突。在操作過程中保持耐心和細心與定期備份數據的重要性。最後如何使用命令來移動和重命名文件，並通過上傳和移動文件來維護Git存儲庫。</p>
 <h1>w3-使用 Gitpod 維護個人網站</h1>
+<p>使用Gitpod連結GitHub帳號，透過倉儲網址進入Gitpod後，若無對應的模組，需先執行chmod u+x init_replit進行模組安裝。儘管提供的資源與codespaces不同，但執行速度依然快速。在Gitpod中開啟python3，並具有多個終端機，程式將自動開啟瀏覽器進入編輯模式。即使未下載子模組，Gitpod仍會列出目錄，相較於codespaces功能稍好，且網址為亂碼式以保障安全性。
+若需查看靜態內容，可新增一個終端機，執行python3並啟動http server，直接在8000埠號瀏覽器中開啟即可查看靜態內容。要關閉執行，可在Gitpod.io儀錶板中進行操作，點擊"stop"即可停止計算時間。</p>
+<h1>w3-使用 Gitpod 維護分組網站</h1>
 <p>進入Gitpod連結登陸github帳號。利用倉儲網址打開，裡面沒有對應的模組，所以要先chmod u+x init_replit安裝模組。其中給予的資源並不輸codespaces，執行速度依樣快速。照樣打開python3，並且也有多的終端機，程式一樣會自動開啟瀏覽器，就可以直接進入編輯。若假如沒有下載子模組，Gitpod一樣會幫忙列出目錄，比codespaces稍好些。並且網址也是亂碼式保全功能。
 要看靜態，新增一個終端機，然後用python3執行模組。啟動http server，直接啟動8000埠號瀏覽器幫你開啟，open就可看到靜態。
 要關閉執行，一樣在Gitpod.io儀錶板，可看到登陸與改變內容，需要關閉點stop就會停止計算時間。</p>
