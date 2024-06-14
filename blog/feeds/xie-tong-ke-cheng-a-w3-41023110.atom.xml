@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - 協同課程a-w3-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/xie-tong-ke-cheng-a-w3-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T06:46:45+08:00</updated><entry><title>2024 協同課程a-w3</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w3-41023110.html" rel="alternate"></link><published>2024-03-15T18:02:00+08:00</published><updated>2024-06-14T06:46:45+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-03-15:./2024-協同課程a-w3-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - 協同課程a-w3-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/xie-tong-ke-cheng-a-w3-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T06:49:57+08:00</updated><entry><title>2024 協同課程a-w3</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w3-41023110.html" rel="alternate"></link><published>2024-03-15T18:02:00+08:00</published><updated>2024-06-14T06:49:57+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-03-15:./2024-協同課程a-w3-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
 &lt;h1&gt;w3 LaTeX 格式分工完成下列文章的英文與中文翻譯並列資料。&lt;/h1&gt;
-&lt;p&gt;負責第三段 43-65page 由41023110 (introduction_orig.txt,
-使用了chatgpt與劍橋辭翻譯，並用word編排翻譯段落。&lt;/p&gt;
+&lt;p&gt;負責第三段 43-65page 由41023110 (introduction_orig.txt,&lt;/p&gt;
+&lt;p&gt;使用了chatgpt與劍橋辭翻譯，並用word編排翻譯段落。&lt;/p&gt;
 &lt;h1&gt;如何將 41123130 的個人倉儲設為 2a-midag2 分組倉儲的子模組&lt;/h1&gt;
-&lt;p&gt;一.在 Replit 維護項目：
-Replit 綁定到你給它的賬號。
-在近端操作需先克隆，修改後再推回。
-二.確認權限：
-利用 SSH 確認是否有權限。
-權限在 cadlab 檔上的 putty.reg。
-若有實體權限，雙擊寫入，確認 PuTTY 有對應的 key 和 settings。
-三.克隆倉儲：
-設置 PuTTY settings，確認沒有設 proxy。
-確認 key 設置在外部可攜環境。
-確認連線後，將 key as push 到主態登錄檔 regedit 中的 current_root 下的 software 內。
-四.克隆倉儲到 C 槽：
-在 C 槽建立 tmp 資料夾：mkdir tmp。
-使用指令克隆倉儲：git clone --recurse-submodules ssh://對應賬號。
-五.設置子模組：
-進入倉儲目錄，抓取資料並添加：git add。
-使用 git submodule add 命令將個人課程倉儲添加為子模組。
-需使用 HTTPS 抓取子模組，因為分組倉儲沒有權限。
-六.處理子模組：
-將組員的倉儲抓下來，分段抓取未處理完的章節。
-推送更新：git push，並處理 .gitmodules 的衝突。&lt;/p&gt;
+&lt;p&gt;一.在 Replit 維護項目：&lt;/p&gt;
+&lt;p&gt;Replit 綁定到你給它的賬號。&lt;/p&gt;
+&lt;p&gt;在近端操作需先克隆，修改後再推回。&lt;/p&gt;
+&lt;p&gt;二.確認權限：&lt;/p&gt;
+&lt;p&gt;利用 SSH 確認是否有權限。&lt;/p&gt;
+&lt;p&gt;權限在 cadlab 檔上的 putty.reg。&lt;/p&gt;
+&lt;p&gt;若有實體權限，雙擊寫入，確認 PuTTY 有對應的 key 和 settings。&lt;/p&gt;
+&lt;p&gt;三.克隆倉儲：&lt;/p&gt;
+&lt;p&gt;設置 PuTTY settings，確認沒有設 proxy。&lt;/p&gt;
+&lt;p&gt;確認 key 設置在外部可攜環境。&lt;/p&gt;
+&lt;p&gt;確認連線後，將 key as push 到主態登錄檔 regedit 中的 current_root 下的 software 內。&lt;/p&gt;
+&lt;p&gt;四.克隆倉儲到 C 槽：&lt;/p&gt;
+&lt;p&gt;在 C 槽建立 tmp 資料夾：mkdir tmp。&lt;/p&gt;
+&lt;p&gt;使用指令克隆倉儲：git clone --recurse-submodules ssh://對應賬號。&lt;/p&gt;
+&lt;p&gt;五.設置子模組：&lt;/p&gt;
+&lt;p&gt;進入倉儲目錄，抓取資料並添加：git add。&lt;/p&gt;
+&lt;p&gt;使用 git submodule add 命令將個人課程倉儲添加為子模組。&lt;/p&gt;
+&lt;p&gt;需使用 HTTPS 抓取子模組，因為分組倉儲沒有權限。&lt;/p&gt;
+&lt;p&gt;六.處理子模組：&lt;/p&gt;
+&lt;p&gt;將組員的倉儲抓下來，分段抓取未處理完的章節。&lt;/p&gt;
+&lt;p&gt;推送更新：git push，並處理 .gitmodules 的衝突。&lt;/p&gt;
 &lt;p&gt;這樣可以有效管理和維護分組倉儲。&lt;/p&gt;</content><category term="協同課程a-w3-41023110"></category><category term="網誌編寫w3 41023110"></category></entry></feed>
