@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - 協同課程a-w2-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/xie-tong-ke-cheng-a-w2-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T05:32:08+08:00</updated><entry><title>2024 協同課程a-w2</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w2-41023110.html" rel="alternate"></link><published>2024-02-24T16:38:00+08:00</published><updated>2024-06-14T05:32:08+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-24:./2024-協同課程a-w2-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+
+
+&lt;h1&gt;-1 說明甲班第一組組長如何建立 midag1 Team, 並利用 Codespaces 維護 2a-midag1 分組倉儲&lt;/h1&gt;
+&lt;p&gt;終端機每個人每月都有120code小時。要push倉儲要新增終端機後，進行git add-&amp;gt;git commit"網頁標題"，執行後就會直接推上不需要在轉檔。啟動靜態要在新增終端機，有python3內建模組了就可以直接http.server直接啟動埠號，8000會自動開啟瀏覽器連結，就可以直接進入到靜態。用完codespaces要在關閉code讓計時暫停。
+利用 Codespaces 維護 :
+1.在 GitHub Classroom 中建立組別倉儲：&lt;/p&gt;
+&lt;h1&gt;組長在 "or create a new team" 處以 "midag X" 命名組別，然後點擊 "+create team" 創建。&lt;/h1&gt;
+&lt;h1&gt;組員各自加入組別。&lt;/h1&gt;
+&lt;p&gt;2.完成倉儲建立後：&lt;/p&gt;
+&lt;h1&gt;前往倉儲的 settings 選取 pages 進入主分支，啟動 GitHub Pages。&lt;/h1&gt;
+&lt;h1&gt;使用 Codespaces 維護內容。&lt;/h1&gt;
+&lt;p&gt;3.在 Codespaces 中：&lt;/p&gt;
+&lt;h1&gt;不需要使用公用的 443 埠號，有許多終端機和埠號資源可用。&lt;/h1&gt;
+&lt;h1&gt;啟動終端機並安裝模組：執行 chmod u+x init_replit，安裝完成後會有 2GB 記憶體。&lt;/h1&gt;
+&lt;h1&gt;使用 python3 main.py 執行動態應用，並使用 8080 埠號開啟瀏覽器。&lt;/h1&gt;
+&lt;h1&gt;連結埠號會顯示亂碼，保證安全性。&lt;/h1&gt;
+&lt;h1&gt;登入後可以更改內容。&lt;/h1&gt;
+&lt;h1&gt;-2 說明如何利用Replit管理從 Classroom 取得的分組倉儲&lt;/h1&gt;</content><category term="協同課程a-w2-41023110"></category><category term="網誌編寫w2 41023110"></category></entry></feed>
