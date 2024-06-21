@@ -1,86 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-21T04:24:52+08:00</updated><entry><title>2a-midag8 2024 Spring 課程</title><link href="./2024-Spring-w12-blog-tutorial.html" rel="alternate"></link><published>2024-06-07T10:02:00+08:00</published><updated>2024-06-14T05:49:31+08:00</updated><author><name>41023108，41023110，41023155，41023211</name></author><id>tag:None,2024-06-07:./2024-Spring-w12-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-21T04:59:12+08:00</updated><entry><title>2a-midag8 2024 Spring 課程</title><link href="./2024-Spring-w12-blog-tutorial.html" rel="alternate"></link><published>2024-06-07T10:02:00+08:00</published><updated>2024-06-21T04:59:12+08:00</updated><author><name>41023108，41023110，41023155，41023211</name></author><id>tag:None,2024-06-07:./2024-Spring-w12-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
-&lt;h1&gt;w12-1&lt;/h1&gt;
-&lt;p&gt;W12 任務一
-使用Siwmens NX Journal設計專案，在其中可使用NXOpen程式執行儲存格式 。在使用軟體時建議使用英文介面，因為中文翻譯的介面並不明確。
-在設定選擇用語時，選擇Python方便後續網際上延伸編輯後續。
-組別分配網球平衡台零件繪製，並用NXOpen Python執行。之後試著把每個零件組合起來，並且做出啟動一個程式時全部的零組件可以在一程式域內快速組合起來。&lt;/p&gt;
-&lt;h1&gt;w12-2&lt;/h1&gt;
-&lt;p&gt;W12 任務二
-將分組倉儲設為評分子模組，直接在Repilt進行git clear、import跟git push過了。
-直接在倉儲做git submodule add+分組倉儲+組別，其為做子模組的方式。後續acp確認是否有丟上成功。
-後續試著子模組能否整合。&lt;/p&gt;
-&lt;h1&gt;w12-3&lt;/h1&gt;
-&lt;p&gt;W12 任務三
-進行足球機器人網際場景模擬，在cd2024 blog上下載去年的倉儲資料，並安裝跟改過的CoppeliaSim ipv6。
-要確認軟體內modules之connectivity的三個visualization stream、ws remote api server、zmq remote api server分別都是running的狀態。visualization stream是在瀏覽器上輸入埠號為23020的localhost可看到目前的模擬場景。
-開啟下載到的模擬場景，有兩個程式可以執行，分別judge.py與player.py。&lt;/p&gt;</content><category term="w12"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同課程a-w11</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w11-41023110.html" rel="alternate"></link><published>2024-05-22T20:03:00+08:00</published><updated>2024-06-14T06:24:14+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-05-22:./2024-協同課程a-w11-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;h1&gt;w12-任務一&lt;/h1&gt;
+&lt;p&gt;使用Siwmens NX Journal設計專案，在其中可使用NXOpen程式執行儲存格式 。在使用軟體時建議使用英文介面，因為中文翻譯的介面並不明確。&lt;/p&gt;
+&lt;p&gt;在設定選擇用語時，選擇Python方便後續網際上延伸編輯後續。&lt;/p&gt;
+&lt;p&gt;組別分配網球平衡台零件繪製，並用NXOpen Python執行。之後試著把每個零件組合起來，並且做出啟動一個程式時全部的零組件可以在一程式域內快速組合起來。&lt;/p&gt;
+&lt;h1&gt;w12-1遇到問題&lt;/h1&gt;
+&lt;p&gt;在旋轉成型的零件上，在play程式時會遇到流程中斷的問題。&lt;/p&gt;
+&lt;p&gt;但改良不使用旋轉成形的模組建立後，就不會有此問題。&lt;/p&gt;
+&lt;h1&gt;w12-任務二&lt;/h1&gt;
+&lt;p&gt;將分組倉儲設為評分子模組，直接在Repilt進行git clear、import跟git push過了。&lt;/p&gt;
+&lt;p&gt;直接在倉儲做git submodule add+分組倉儲+組別，其為做子模組的方式。後續acp確認是否有丟上成功。&lt;/p&gt;
+&lt;p&gt;後續試著子模組能否整合。&lt;/p&gt;
+&lt;h1&gt;w12-2遇到問題&lt;/h1&gt;
+&lt;p&gt;在組裝時會遇到結合過度約束的紅標，盡量更選使用讓最後成品顯示於干涉。&lt;/p&gt;
+&lt;p&gt;還有尺寸的部分更改零件後，約束要刪除重新給定。&lt;/p&gt;
+&lt;h1&gt;w12-任務三&lt;/h1&gt;
+&lt;p&gt;進行足球機器人網際場景模擬，在cd2024 blog上下載去年的倉儲資料，並安裝跟改過的CoppeliaSim ipv6。&lt;/p&gt;
+&lt;p&gt;要確認軟體內modules之connectivity的三個visualization stream、ws remote api server、zmq remote api server分別都是running的狀態。&lt;/p&gt;
+&lt;p&gt;visualization stream是在瀏覽器上輸入埠號為23020的localhost可看到目前的模擬場景。&lt;/p&gt;
+&lt;p&gt;開啟下載到的模擬場景，有兩個程式可以執行，分別judge.py與player.py。&lt;/p&gt;
+&lt;h1&gt;w12-3遇到問題&lt;/h1&gt;
+&lt;p&gt;在CoppeliaSim場景開啟後匯入機器人，在擺正機器人與定位不是很熟練。&lt;/p&gt;
+&lt;p&gt;在給定位銷時不知道怎麼讓它約束在點上。&lt;/p&gt;
+&lt;p&gt;後續模擬還在練習。&lt;/p&gt;</content><category term="w12"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同課程a-w9.10.11</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w9-41023110.html" rel="alternate"></link><published>2024-05-03T16:36:00+08:00</published><updated>2024-06-21T04:49:00+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-05-03:./2024-協同課程a-w9-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
-&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;</content><category term="a-w11-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w10</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w10-41023110.html" rel="alternate"></link><published>2024-05-05T12:55:00+08:00</published><updated>2024-06-14T06:23:05+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-05-05:./2024-協同課程a-w10-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;h1&gt;任務&lt;/h1&gt;
+&lt;p&gt;倉儲與網站建立:
+根據老師給予的2a各學員評分相關網站，取得老師所寫的程式，並詢問ChatGPT找出相應程式碼。&lt;/p&gt;
+&lt;p&gt;將原本有74行的程式碼簡化至40幾行，保持功能一致。&lt;/p&gt;
+&lt;p&gt;鋼球平衡台零組件繪圖:&lt;/p&gt;
+&lt;p&gt;解壓縮Solvespace_model_2d_for_cd2024_w6.7z檔案中的零件，根據尺寸在NX中進行繪製。&lt;/p&gt;
+&lt;p&gt;組裝過程中錄製並剪輯成13分鐘的影片，提供詳細步驟及組合圖&lt;/p&gt;
+&lt;h1&gt;任務&lt;/h1&gt;
+&lt;p&gt;協同產品設計實習課程專案
+主要內容:利用Odoo PLM進行鋼球平衡台與綜合球賽機器人模擬系統的協同設計。
+利用老師的程式碼與ChatGPT協助，簡化並保持結果一致。
+撰寫各報告摘要並錄製零組件組裝影片。
+使用Odoo PLM進行協同設計與翻譯，生成中英文並列的pdf檔案。
+協同處理教學影片，整理逐字稿並完成期中自評。
+安裝Siemens NX 1872，進行零組件繪圖與模擬。
+使用Sourcetree管理倉儲，理解改版及解決衝突。
+第七週摘要協同模式，第八週應用AI協助閱讀論文與整理資料，第十週完成實習任務。&lt;/p&gt;</content><category term="a-w9-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w7</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w7-41023110.html" rel="alternate"></link><published>2024-04-25T15:45:00+08:00</published><updated>2024-06-21T04:42:08+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-25:./2024-協同課程a-w7-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
-&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;</content><category term="a-w10-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w9</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w9-41023110.html" rel="alternate"></link><published>2024-05-03T16:36:00+08:00</published><updated>2024-05-03T08:49:09+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-05-03:./2024-協同課程a-w9-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;h1&gt;w7 任務指派&lt;/h1&gt;
+&lt;p&gt;每人負責不同週網誌文章的撰寫與統整，之後組長將所有組員的網誌文章整合到分組倉儲中。&lt;/p&gt;
+&lt;h1&gt;w7 CoppeliaSim 環境中 IPv6 ZeroMQ Remote API Python 模擬任務&lt;/h1&gt;
+&lt;p&gt;查找並說明如何在CoppeliaSim環境中，利用IPv6 ZeroMQ Remote API Python進行兩個自由度的鋼球平衡檯自動控制系統模擬。&lt;/p&gt;
+&lt;p&gt;實際測試模擬環境，確保模擬系統的正確性和穩定性。&lt;/p&gt;
+&lt;p&gt;整理並撰寫模擬過程與結果的報告，並將其納入分組倉儲的Markdown目錄中。&lt;/p&gt;
+&lt;h1&gt;w7 使用工具&lt;/h1&gt;
+&lt;p&gt;網誌管理與網際簡報:cmsimde_site: 利用Pelican管理使用者所建立的網誌，利用Reveal管理使用者所建立的網際簡報。&lt;/p&gt;
+&lt;p&gt;內容管理方法:Python執行網頁編輯: 使用Replit、Codespaces、Gitpod及localhost四種方法進行。&lt;/p&gt;
+&lt;p&gt;雲端作業:各自選擇合適的工具。&lt;/p&gt;
+&lt;h1&gt;w7 作業協同設計&lt;/h1&gt;
+&lt;p&gt;分組網站內容的協同:整合各學員子模組中的 config/content.htm 以及 markdown/*.md 檔案至分組網站中。&lt;/p&gt;
+&lt;p&gt;報告內容的協同:使用Github Actions與近端MikTeX中的xelatex將.tex轉為pdf。&lt;/p&gt;
+&lt;p&gt;產品設計的PLM協同:使用Odoo PLM模組進行協同管理。&lt;/p&gt;
+&lt;p&gt;零組件設計的協同:Solvespace進行設計，使用Siemens NX 1872進行協同零組件繪圖設計。&lt;/p&gt;
+&lt;h1&gt;w7 每週網誌管理過程&lt;/h1&gt;
+&lt;p&gt;網誌撰寫與轉檔流程:&lt;/p&gt;
+&lt;p&gt;各組員每週在 cd2024 倉儲中的 markdown 目錄編寫網誌文章。
+經由Pelican轉檔至 blog 目錄中的超文件網誌。
+確保 combined_markdown 目錄中的Markdown檔案命名不重複，Slug字串不可重複。&lt;/p&gt;
+&lt;p&gt;使用Replit進行內容維護:&lt;/p&gt;
+&lt;p&gt;組員可從Replit Connect至Github進行倉儲維護，但需OpenSSH管理權限來管理分組倉儲。&lt;/p&gt;</content><category term="a-w7-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w6</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w6-41023110.html" rel="alternate"></link><published>2024-04-22T14:18:00+08:00</published><updated>2024-06-21T04:33:42+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-22:./2024-協同課程a-w6-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
-&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;
-&lt;p&gt;w9協同帳號資料處理，根據老師給的範例去作出一個新的網站連結，連結內的 Ace 編輯器執行後可以正常列出班級協同相關網站。
-網球平衡台PID控制與模擬。根據老師給的7z檔中6個PDF檔，閱讀後並每篇解讀寫一個文中的摘要與弊端報告。
-用NX與Solvespace繪製網球台零件。並用ZMQ RemoteAPI Python 控制程式模擬鋼球平衡台場景&lt;/p&gt;</content><category term="a-w9-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w8</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w8-41023110.html" rel="alternate"></link><published>2024-04-30T17:50:00+08:00</published><updated>2024-06-14T06:21:09+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-30:./2024-協同課程a-w8-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
-
-
-&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;</content><category term="a-w8-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w7</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w7-41023110.html" rel="alternate"></link><published>2024-04-25T15:45:00+08:00</published><updated>2024-06-14T06:19:45+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-25:./2024-協同課程a-w7-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
-
-
-&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;</content><category term="a-w7-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w6</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w6-41023110.html" rel="alternate"></link><published>2024-04-22T14:18:00+08:00</published><updated>2024-06-14T06:18:31+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-22:./2024-協同課程a-w6-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
-
-
-&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;</content><category term="a-w6-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w5</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w5-41023110.html" rel="alternate"></link><published>2024-04-15T14:26:00+08:00</published><updated>2024-06-21T04:24:52+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-15:./2024-協同課程a-w5-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;h1&gt;w6教學影片分組整理並自評&lt;/h1&gt;
+&lt;p&gt;分組倉儲上w4.w6有個人負責與自評&lt;/p&gt;</content><category term="a-w6-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w5</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w5-41023110.html" rel="alternate"></link><published>2024-04-15T14:26:00+08:00</published><updated>2024-06-21T04:43:05+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-15:./2024-協同課程a-w5-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
 &lt;h1&gt;w5教學內容為先前影片整理、分組網誌的統整&lt;/h1&gt;
-&lt;p&gt;--影片製作
-影片剪輯後製流程:
-我們使用 CapCut 軟體來進行影片剪輯和後製工作。
-字幕處理:
-目前CapCut字幕只支援簡體中文，因此我們需要在翻譯後重新逐字更改翻錯的內容並將簡體字改成繁體字。
-20分鐘以上的影片通常需要花費2-3小時以上的時間來剪輯。
-工作量分配:
-因人手不足，每個人至少需要剪輯8至9片影片。
+&lt;p&gt;--影片製作&lt;/p&gt;
+&lt;p&gt;影片剪輯後製流程:&lt;/p&gt;
+&lt;p&gt;我們使用 CapCut 軟體來進行影片剪輯和後製工作。&lt;/p&gt;
+&lt;p&gt;字幕處理:&lt;/p&gt;
+&lt;p&gt;目前CapCut字幕只支援簡體中文，因此我們需要在翻譯後重新逐字更改翻錯的內容並將簡體字改成繁體字。
+20分鐘以上的影片通常需要花費2-3小時以上的時間來剪輯。&lt;/p&gt;
+&lt;p&gt;工作量分配:&lt;/p&gt;
+&lt;p&gt;因人手不足，每個人至少需要剪輯8至9片影片。
 剪完影片後需要將簡體中文字幕改成繁體中文。
 剪輯完成的影片需要上傳至YouTube。如果影片超過20分鐘，YouTube會提示影片過長，需要將影片分成上下兩部。&lt;/p&gt;
 &lt;h1&gt;w5網誌統整流程&lt;/h1&gt;
-&lt;p&gt;文件整合:
-各組員每週的協同設計網誌文章放在個別的 cd2024 倉儲的 markdown 目錄中。
+&lt;p&gt;文件整合:&lt;/p&gt;
+&lt;p&gt;各組員每週的協同設計網誌文章放在個別的 cd2024 倉儲的 markdown 目錄中。
 修改分組倉儲中的 pelicanconf.py，使用 Pelican 設定中的 PATH 與 OUTPUT_PATH 變數，指定網誌統整目錄。
-這樣可以在分組倉儲中納入所有組員在子模組中所編寫的協同網誌。
-設定操作:
-pelicanconf.py 中的程式設定段，將子模組中 markdown 目錄的 .md 檔案動態複製到分組倉儲中的 combined_directory。
+這樣可以在分組倉儲中納入所有組員在子模組中所編寫的協同網誌。&lt;/p&gt;
+&lt;p&gt;設定操作:&lt;/p&gt;
+&lt;p&gt;pelicanconf.py 中的程式設定段，將子模組中 markdown 目錄的 .md 檔案動態複製到分組倉儲中的 combined_directory。
 避開分組倉儲與學員子模組倉儲中的 pages 目錄下的 .md 檔案。
-再進行網誌轉檔，並將所產生的網誌超文件存入所設定的 blog 目錄。
-轉檔指令:
-設定完成後的網誌轉檔指令為：pelican -s local_publishconf.py，表示要利用 local_publishconf.py 的設定進行轉檔，且先前有關 pelicanconf.py 的設定也將導入執行。
-命名規則:
-各組員必須將個別的網誌 .md 檔案名稱加上前綴字串，例如： "學號_" 加上獨一無二的網誌 Slug 字串名稱。
+再進行網誌轉檔，並將所產生的網誌超文件存入所設定的 blog 目錄。&lt;/p&gt;
+&lt;p&gt;轉檔指令:&lt;/p&gt;
+&lt;p&gt;設定完成後的網誌轉檔指令為：pelican -s local_publishconf.py，表示要利用 local_publishconf.py 的設定進行轉檔，且先前有關 pelicanconf.py 的設定也將導入執行。&lt;/p&gt;
+&lt;p&gt;命名規則:&lt;/p&gt;
+&lt;p&gt;各組員必須將個別的網誌 .md 檔案名稱加上前綴字串，例如： "學號_" 加上獨一無二的網誌 Slug 字串名稱。
 Category 使用該組員的學號作為標示。
 這樣在統整轉檔時，不會發生相同網誌文章檔案名稱衝突的錯誤，且從各分組網誌的 Categories 中即可找到各組員所編寫的所有網誌內容。&lt;/p&gt;
 &lt;h1&gt;w5主要工作&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;使用CapCut軟體進行影片剪輯，需手動將簡體字改成繁體字，20分鐘以上影片需花1小時以上剪輯。
-&lt;/em&gt;上傳YouTube影片。
-&lt;em&gt;各組員的網誌文章需放在個別倉儲的 markdown 目錄中，並修改 pelicanconf.py 進行統整。
-&lt;/em&gt;使用 pelicanconf.py 設定將 .md 檔案動態複製到 combined_directory，避開 pages 目錄。
-&lt;em&gt;轉檔指令為：pelican -s local_publishconf.py，需加上學號前綴及獨一無二的Slug字串。
-&lt;/em&gt;確保每個網誌文章有獨立的Category標示，以便於檔案管理及查找。&lt;/p&gt;</content><category term="a-w5-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w4</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w4-41023110.html" rel="alternate"></link><published>2024-04-12T16:30:00+08:00</published><updated>2024-06-14T06:08:07+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w4-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;p&gt;*使用CapCut軟體進行影片剪輯，需手動將簡體字改成繁體字，20分鐘以上影片需花1小時以上剪輯。&lt;/p&gt;
+&lt;p&gt;*上傳YouTube影片。&lt;/p&gt;
+&lt;p&gt;*各組員的網誌文章需放在個別倉儲的 markdown 目錄中，並修改 pelicanconf.py 進行統整。&lt;/p&gt;
+&lt;p&gt;*使用 pelicanconf.py 設定將 .md 檔案動態複製到 combined_directory，避開 pages 目錄。&lt;/p&gt;
+&lt;p&gt;*轉檔指令為：pelican -s local_publishconf.py，需加上學號前綴及獨一無二的Slug字串。&lt;/p&gt;
+&lt;p&gt;*確保每個網誌文章有獨立的Category標示，以便於檔案管理及查找。&lt;/p&gt;</content><category term="a-w5-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w4</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w4-41023110.html" rel="alternate"></link><published>2024-04-12T16:30:00+08:00</published><updated>2024-06-14T06:08:07+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w4-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 

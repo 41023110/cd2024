@@ -59,7 +59,7 @@
 <meta property="og:url" content="./2024-Spring-w12-blog-tutorial.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2024-06-07 10:02:00+08:00"/>
-<meta property="article:modified_time" content="2024-06-14 05:49:31.003050+08:00"/>
+<meta property="article:modified_time" content="2024-06-21 04:59:12.119267+08:00"/>
 <meta property="article:author" content="./author/41023108410231104102315541023211.html">
 <meta property="article:section" content="w12"/>
 <meta property="article:tag" content="網誌編寫"/>
@@ -74,7 +74,7 @@
   "name": "2a-midag8 2024 Spring 課程",
   "headline": "2a-midag8 2024 Spring 課程",
   "datePublished": "2024-06-07 10:02:00+08:00",
-  "dateModified": "2024-06-14 05:49:31.003050+08:00",
+  "dateModified": "2024-06-21 04:59:12.119267+08:00",
   "author": {
     "@type": "Person",
     "name": "41023108，41023110，41023155，41023211",
@@ -211,7 +211,7 @@ init_mathjax();
             | <time datetime="Fri 07 June 2024">Fri 07 June 2024</time>
         </span>
         <!-- TODO : Modified check -->
-            <span class="post-meta"> | Updated on Fri 14 June 2024</span>
+            <span class="post-meta"> | Updated on Fri 21 June 2024</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -234,21 +234,29 @@ init_mathjax();
                 <p>2024 Spring 網際內容管理與協同產品設計實習課程教學導引.</p>
 
 
-<h1>w12-1</h1>
-<p>W12 任務一
-使用Siwmens NX Journal設計專案，在其中可使用NXOpen程式執行儲存格式 。在使用軟體時建議使用英文介面，因為中文翻譯的介面並不明確。
-在設定選擇用語時，選擇Python方便後續網際上延伸編輯後續。
-組別分配網球平衡台零件繪製，並用NXOpen Python執行。之後試著把每個零件組合起來，並且做出啟動一個程式時全部的零組件可以在一程式域內快速組合起來。</p>
-<h1>w12-2</h1>
-<p>W12 任務二
-將分組倉儲設為評分子模組，直接在Repilt進行git clear、import跟git push過了。
-直接在倉儲做git submodule add+分組倉儲+組別，其為做子模組的方式。後續acp確認是否有丟上成功。
-後續試著子模組能否整合。</p>
-<h1>w12-3</h1>
-<p>W12 任務三
-進行足球機器人網際場景模擬，在cd2024 blog上下載去年的倉儲資料，並安裝跟改過的CoppeliaSim ipv6。
-要確認軟體內modules之connectivity的三個visualization stream、ws remote api server、zmq remote api server分別都是running的狀態。visualization stream是在瀏覽器上輸入埠號為23020的localhost可看到目前的模擬場景。
-開啟下載到的模擬場景，有兩個程式可以執行，分別judge.py與player.py。</p>
+<h1>w12-任務一</h1>
+<p>使用Siwmens NX Journal設計專案，在其中可使用NXOpen程式執行儲存格式 。在使用軟體時建議使用英文介面，因為中文翻譯的介面並不明確。</p>
+<p>在設定選擇用語時，選擇Python方便後續網際上延伸編輯後續。</p>
+<p>組別分配網球平衡台零件繪製，並用NXOpen Python執行。之後試著把每個零件組合起來，並且做出啟動一個程式時全部的零組件可以在一程式域內快速組合起來。</p>
+<h1>w12-1遇到問題</h1>
+<p>在旋轉成型的零件上，在play程式時會遇到流程中斷的問題。</p>
+<p>但改良不使用旋轉成形的模組建立後，就不會有此問題。</p>
+<h1>w12-任務二</h1>
+<p>將分組倉儲設為評分子模組，直接在Repilt進行git clear、import跟git push過了。</p>
+<p>直接在倉儲做git submodule add+分組倉儲+組別，其為做子模組的方式。後續acp確認是否有丟上成功。</p>
+<p>後續試著子模組能否整合。</p>
+<h1>w12-2遇到問題</h1>
+<p>在組裝時會遇到結合過度約束的紅標，盡量更選使用讓最後成品顯示於干涉。</p>
+<p>還有尺寸的部分更改零件後，約束要刪除重新給定。</p>
+<h1>w12-任務三</h1>
+<p>進行足球機器人網際場景模擬，在cd2024 blog上下載去年的倉儲資料，並安裝跟改過的CoppeliaSim ipv6。</p>
+<p>要確認軟體內modules之connectivity的三個visualization stream、ws remote api server、zmq remote api server分別都是running的狀態。</p>
+<p>visualization stream是在瀏覽器上輸入埠號為23020的localhost可看到目前的模擬場景。</p>
+<p>開啟下載到的模擬場景，有兩個程式可以執行，分別judge.py與player.py。</p>
+<h1>w12-3遇到問題</h1>
+<p>在CoppeliaSim場景開啟後匯入機器人，在擺正機器人與定位不是很熟練。</p>
+<p>在給定位銷時不知道怎麼讓它約束在點上。</p>
+<p>後續模擬還在練習。</p>
             </section>
 
             <section class="post-info">
@@ -262,10 +270,10 @@ init_mathjax();
 
 
                 <aside class="post-nav">
-                    <a class="post-nav-prev" href="./2024-協同課程a-w11-41023110.html">
+                    <a class="post-nav-prev" href="./2024-協同課程a-w9-41023110.html">
                         <section class="post-nav-teaser">
                             <i class="ic ic-arrow-right"></i>
-                                <h2 class="post-nav-title">2024 協同課程a-w11</h2>
+                                <h2 class="post-nav-title">2024 協同課程a-w9.10.11</h2>
                             <p class="post-nav-excerpt">2024 Spring 網際內容管理與協同產品設計實習課程教學導引</p>
                         </section>
                     </a>
