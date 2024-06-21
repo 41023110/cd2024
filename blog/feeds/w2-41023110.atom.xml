@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - 協同課程a-w2-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/xie-tong-ke-cheng-a-w2-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T06:51:02+08:00</updated><entry><title>2024 協同課程a-w2</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w2-41023110.html" rel="alternate"></link><published>2024-02-24T16:38:00+08:00</published><updated>2024-06-14T06:51:02+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-02-24:./2024-協同課程a-w2-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - w2-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/w2-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-06-21T05:08:20+08:00</updated><entry><title>2a-cd2024課程w2</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w2-41023110.html" rel="alternate"></link><published>2024-02-24T16:38:00+08:00</published><updated>2024-06-21T05:08:20+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-02-24:./2024-cd2024課程-w2-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -48,4 +48,4 @@
 &lt;p&gt;小組成員可以獨立編輯，不受他人干擾。&lt;/p&gt;
 &lt;p&gt;連接組員：&lt;/p&gt;
 &lt;p&gt;改密碼後查詢 IP，並複製到 init.py 中修改，設置外部 IP 儲存，使電腦變成主機。
-這樣可以使組員在 CMS 中一次完成動作。&lt;/p&gt;</content><category term="協同課程a-w2-41023110"></category><category term="網誌編寫w2 41023110"></category></entry></feed>
+這樣可以使組員在 CMS 中一次完成動作。&lt;/p&gt;</content><category term="w2-41023110"></category><category term="日誌編寫 41023110"></category></entry></feed>

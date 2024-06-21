@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-21T04:59:12+08:00</updated><entry><title>2a-midag8 2024 Spring 課程</title><link href="./2024-Spring-w12-blog-tutorial.html" rel="alternate"></link><published>2024-06-07T10:02:00+08:00</published><updated>2024-06-21T04:59:12+08:00</updated><author><name>41023108，41023110，41023155，41023211</name></author><id>tag:None,2024-06-07:./2024-Spring-w12-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-21T05:09:06+08:00</updated><entry><title>2a-cd2024課程w12-15</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w12-15-41023110.html" rel="alternate"></link><published>2024-06-07T10:02:00+08:00</published><updated>2024-06-21T05:09:06+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-06-07:./2024-cd2024課程-w12-15-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -25,7 +25,7 @@
 &lt;h1&gt;w12-3遇到問題&lt;/h1&gt;
 &lt;p&gt;在CoppeliaSim場景開啟後匯入機器人，在擺正機器人與定位不是很熟練。&lt;/p&gt;
 &lt;p&gt;在給定位銷時不知道怎麼讓它約束在點上。&lt;/p&gt;
-&lt;p&gt;後續模擬還在練習。&lt;/p&gt;</content><category term="w12"></category><category term="網誌編寫"></category></entry><entry><title>2024 協同課程a-w9.10.11</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w9-41023110.html" rel="alternate"></link><published>2024-05-03T16:36:00+08:00</published><updated>2024-06-21T04:49:00+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-05-03:./2024-協同課程a-w9-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;p&gt;後續模擬還在練習。&lt;/p&gt;</content><category term="w12-15-41023110"></category><category term="日誌編寫 41023110"></category></entry><entry><title>2a-cd2024課程w9-11</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w9-11-41023110.html" rel="alternate"></link><published>2024-05-03T16:36:00+08:00</published><updated>2024-06-21T05:08:46+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-05-03:./2024-cd2024課程-w9-11-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
@@ -45,7 +45,7 @@
 協同處理教學影片，整理逐字稿並完成期中自評。
 安裝Siemens NX 1872，進行零組件繪圖與模擬。
 使用Sourcetree管理倉儲，理解改版及解決衝突。
-第七週摘要協同模式，第八週應用AI協助閱讀論文與整理資料，第十週完成實習任務。&lt;/p&gt;</content><category term="a-w9-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w7</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w7-41023110.html" rel="alternate"></link><published>2024-04-25T15:45:00+08:00</published><updated>2024-06-21T04:42:08+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-25:./2024-協同課程a-w7-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+第七週摘要協同模式，第八週應用AI協助閱讀論文與整理資料，第十週完成實習任務。&lt;/p&gt;</content><category term="w9-11-41023110"></category><category term="日誌編寫 41023110"></category></entry><entry><title>2a-cd2024課程w7</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w7-41023110.html" rel="alternate"></link><published>2024-04-25T15:45:00+08:00</published><updated>2024-06-21T05:08:38+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-25:./2024-cd2024課程-w7-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
@@ -70,12 +70,12 @@
 經由Pelican轉檔至 blog 目錄中的超文件網誌。
 確保 combined_markdown 目錄中的Markdown檔案命名不重複，Slug字串不可重複。&lt;/p&gt;
 &lt;p&gt;使用Replit進行內容維護:&lt;/p&gt;
-&lt;p&gt;組員可從Replit Connect至Github進行倉儲維護，但需OpenSSH管理權限來管理分組倉儲。&lt;/p&gt;</content><category term="a-w7-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w6</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w6-41023110.html" rel="alternate"></link><published>2024-04-22T14:18:00+08:00</published><updated>2024-06-21T04:33:42+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-22:./2024-協同課程a-w6-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;p&gt;組員可從Replit Connect至Github進行倉儲維護，但需OpenSSH管理權限來管理分組倉儲。&lt;/p&gt;</content><category term="w7-41023110"></category><category term="日誌編寫 41023110"></category></entry><entry><title>2a-cd2024課程w6</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w6-41023110.html" rel="alternate"></link><published>2024-04-22T14:18:00+08:00</published><updated>2024-06-21T05:08:35+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-22:./2024-cd2024課程-w6-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
 &lt;h1&gt;w6教學影片分組整理並自評&lt;/h1&gt;
-&lt;p&gt;分組倉儲上w4.w6有個人負責與自評&lt;/p&gt;</content><category term="a-w6-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w5</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w5-41023110.html" rel="alternate"></link><published>2024-04-15T14:26:00+08:00</published><updated>2024-06-21T04:43:05+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-15:./2024-協同課程a-w5-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;p&gt;分組倉儲上w4.w6有個人負責與自評&lt;/p&gt;</content><category term="w6-41023110"></category><category term="日誌編寫 41023110"></category></entry><entry><title>2a-cd2024課程w5</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w5-41023110.html" rel="alternate"></link><published>2024-04-15T14:26:00+08:00</published><updated>2024-06-21T05:08:32+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-15:./2024-cd2024課程-w5-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
@@ -111,14 +111,14 @@ Category 使用該組員的學號作為標示。
 &lt;p&gt;*各組員的網誌文章需放在個別倉儲的 markdown 目錄中，並修改 pelicanconf.py 進行統整。&lt;/p&gt;
 &lt;p&gt;*使用 pelicanconf.py 設定將 .md 檔案動態複製到 combined_directory，避開 pages 目錄。&lt;/p&gt;
 &lt;p&gt;*轉檔指令為：pelican -s local_publishconf.py，需加上學號前綴及獨一無二的Slug字串。&lt;/p&gt;
-&lt;p&gt;*確保每個網誌文章有獨立的Category標示，以便於檔案管理及查找。&lt;/p&gt;</content><category term="a-w5-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w4</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w4-41023110.html" rel="alternate"></link><published>2024-04-12T16:30:00+08:00</published><updated>2024-06-14T06:08:07+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w4-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;p&gt;*確保每個網誌文章有獨立的Category標示，以便於檔案管理及查找。&lt;/p&gt;</content><category term="w5-41023110"></category><category term="日誌編寫 41023110"></category></entry><entry><title>2a-cd2024課程w4</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w4-41023110.html" rel="alternate"></link><published>2024-04-12T16:30:00+08:00</published><updated>2024-06-21T05:08:28+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-12:./2024-cd2024課程-w4-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
 &lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;
 &lt;p&gt;w4 2a 分組任務
 負責w3 a.b的影片
-使用capcut編輯字幕與影片剪輯，把翻譯好的影片上傳到youtube並嵌入在txt，在記事本依檔照程序碼排版。上傳到組與個人downloads。&lt;/p&gt;</content><category term="a-w4-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w3</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w3-41023110.html" rel="alternate"></link><published>2024-03-15T18:02:00+08:00</published><updated>2024-06-14T06:49:57+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-03-15:./2024-協同課程a-w3-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+使用capcut編輯字幕與影片剪輯，把翻譯好的影片上傳到youtube並嵌入在txt，在記事本依檔照程序碼排版。上傳到組與個人downloads。&lt;/p&gt;</content><category term="w4-41023110"></category><category term="日誌編寫 41023110"></category></entry><entry><title>2a-cd2024課程w3</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w3-41023110.html" rel="alternate"></link><published>2024-03-15T18:02:00+08:00</published><updated>2024-06-21T05:08:24+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-03-15:./2024-cd2024課程-w3-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -147,7 +147,7 @@ Category 使用該組員的學號作為標示。
 &lt;p&gt;六.處理子模組：&lt;/p&gt;
 &lt;p&gt;將組員的倉儲抓下來，分段抓取未處理完的章節。&lt;/p&gt;
 &lt;p&gt;推送更新：git push，並處理 .gitmodules 的衝突。&lt;/p&gt;
-&lt;p&gt;這樣可以有效管理和維護分組倉儲。&lt;/p&gt;</content><category term="協同課程a-w3-41023110"></category><category term="網誌編寫w3 41023110"></category></entry><entry><title>2024 協同課程a-w2</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w2-41023110.html" rel="alternate"></link><published>2024-02-24T16:38:00+08:00</published><updated>2024-06-14T06:51:02+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-02-24:./2024-協同課程a-w2-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+&lt;p&gt;這樣可以有效管理和維護分組倉儲。&lt;/p&gt;</content><category term="w3-41023110"></category><category term="日誌編寫 41023110"></category></entry><entry><title>2a-cd2024課程w2</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w2-41023110.html" rel="alternate"></link><published>2024-02-24T16:38:00+08:00</published><updated>2024-06-21T05:08:20+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-02-24:./2024-cd2024課程-w2-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -196,7 +196,7 @@ Category 使用該組員的學號作為標示。
 &lt;p&gt;小組成員可以獨立編輯，不受他人干擾。&lt;/p&gt;
 &lt;p&gt;連接組員：&lt;/p&gt;
 &lt;p&gt;改密碼後查詢 IP，並複製到 init.py 中修改，設置外部 IP 儲存，使電腦變成主機。
-這樣可以使組員在 CMS 中一次完成動作。&lt;/p&gt;</content><category term="協同課程a-w2-41023110"></category><category term="網誌編寫w2 41023110"></category></entry><entry><title>2024 協同課程a-w1</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w1-41023110.html" rel="alternate"></link><published>2024-02-18T00:38:00+08:00</published><updated>2024-06-14T06:13:03+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-協同課程a-w1-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+這樣可以使組員在 CMS 中一次完成動作。&lt;/p&gt;</content><category term="w2-41023110"></category><category term="日誌編寫 41023110"></category></entry><entry><title>2a-cd2024課程w1</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w1-41023110.html" rel="alternate"></link><published>2024-02-18T00:38:00+08:00</published><updated>2024-06-21T05:08:12+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-02-18:./2024-cd2024課程-w1-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -460,4 +460,4 @@ doc["threejsblock"].bind("click", threejsblock.do)
 &lt;div id="brython_div2"&gt;&lt;/div&gt;
 &lt;!-- editor2 結束 --&gt;
 &lt;hr/&gt;&lt;p&gt;
-&lt;script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"&gt;&lt;/script&gt;</content><category term="a-w1-41023110"></category><category term="網誌編寫 41023110"></category></entry></feed>
+&lt;script src="https://unpkg.com/three@0.144.0/build/three.js" type="text/javascript"&gt;&lt;/script&gt;</content><category term="w1-41023110"></category><category term="日誌編寫 41023110"></category></entry></feed>

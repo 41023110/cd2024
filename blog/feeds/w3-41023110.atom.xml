@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - 協同課程a-w3-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/xie-tong-ke-cheng-a-w3-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T06:49:57+08:00</updated><entry><title>2024 協同課程a-w3</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w3-41023110.html" rel="alternate"></link><published>2024-03-15T18:02:00+08:00</published><updated>2024-06-14T06:49:57+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-03-15:./2024-協同課程a-w3-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110 - w3-41023110</title><link href="./" rel="alternate"></link><link href="./feeds/w3-41023110.atom.xml" rel="self"></link><id>./</id><updated>2024-06-21T05:08:24+08:00</updated><entry><title>2a-cd2024課程w3</title><link href="./2024-cd2024%E8%AA%B2%E7%A8%8B-w3-41023110.html" rel="alternate"></link><published>2024-03-15T18:02:00+08:00</published><updated>2024-06-21T05:08:24+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-03-15:./2024-cd2024課程-w3-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -28,4 +28,4 @@
 &lt;p&gt;六.處理子模組：&lt;/p&gt;
 &lt;p&gt;將組員的倉儲抓下來，分段抓取未處理完的章節。&lt;/p&gt;
 &lt;p&gt;推送更新：git push，並處理 .gitmodules 的衝突。&lt;/p&gt;
-&lt;p&gt;這樣可以有效管理和維護分組倉儲。&lt;/p&gt;</content><category term="協同課程a-w3-41023110"></category><category term="網誌編寫w3 41023110"></category></entry></feed>
+&lt;p&gt;這樣可以有效管理和維護分組倉儲。&lt;/p&gt;</content><category term="w3-41023110"></category><category term="日誌編寫 41023110"></category></entry></feed>
