@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-14T06:51:02+08:00</updated><entry><title>2a-midag8 2024 Spring 課程</title><link href="./2024-Spring-w12-blog-tutorial.html" rel="alternate"></link><published>2024-06-07T10:02:00+08:00</published><updated>2024-06-14T05:49:31+08:00</updated><author><name>41023108，41023110，41023155，41023211</name></author><id>tag:None,2024-06-07:./2024-Spring-w12-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習 41023110</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-21T04:24:52+08:00</updated><entry><title>2a-midag8 2024 Spring 課程</title><link href="./2024-Spring-w12-blog-tutorial.html" rel="alternate"></link><published>2024-06-07T10:02:00+08:00</published><updated>2024-06-14T05:49:31+08:00</updated><author><name>41023108，41023110，41023155，41023211</name></author><id>tag:None,2024-06-07:./2024-Spring-w12-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
@@ -44,11 +44,43 @@
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
-&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;</content><category term="a-w6-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w5</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w5-41023110.html" rel="alternate"></link><published>2024-04-15T14:26:00+08:00</published><updated>2024-06-14T06:17:21+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-15:./2024-協同課程a-w5-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;</content><category term="a-w6-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w5</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w5-41023110.html" rel="alternate"></link><published>2024-04-15T14:26:00+08:00</published><updated>2024-06-21T04:24:52+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-15:./2024-協同課程a-w5-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
-&lt;h1&gt;w4-1 教學影片分組整理&lt;/h1&gt;</content><category term="a-w5-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w4</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w4-41023110.html" rel="alternate"></link><published>2024-04-12T16:30:00+08:00</published><updated>2024-06-14T06:08:07+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w4-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
+&lt;h1&gt;w5教學內容為先前影片整理、分組網誌的統整&lt;/h1&gt;
+&lt;p&gt;--影片製作
+影片剪輯後製流程:
+我們使用 CapCut 軟體來進行影片剪輯和後製工作。
+字幕處理:
+目前CapCut字幕只支援簡體中文，因此我們需要在翻譯後重新逐字更改翻錯的內容並將簡體字改成繁體字。
+20分鐘以上的影片通常需要花費2-3小時以上的時間來剪輯。
+工作量分配:
+因人手不足，每個人至少需要剪輯8至9片影片。
+剪完影片後需要將簡體中文字幕改成繁體中文。
+剪輯完成的影片需要上傳至YouTube。如果影片超過20分鐘，YouTube會提示影片過長，需要將影片分成上下兩部。&lt;/p&gt;
+&lt;h1&gt;w5網誌統整流程&lt;/h1&gt;
+&lt;p&gt;文件整合:
+各組員每週的協同設計網誌文章放在個別的 cd2024 倉儲的 markdown 目錄中。
+修改分組倉儲中的 pelicanconf.py，使用 Pelican 設定中的 PATH 與 OUTPUT_PATH 變數，指定網誌統整目錄。
+這樣可以在分組倉儲中納入所有組員在子模組中所編寫的協同網誌。
+設定操作:
+pelicanconf.py 中的程式設定段，將子模組中 markdown 目錄的 .md 檔案動態複製到分組倉儲中的 combined_directory。
+避開分組倉儲與學員子模組倉儲中的 pages 目錄下的 .md 檔案。
+再進行網誌轉檔，並將所產生的網誌超文件存入所設定的 blog 目錄。
+轉檔指令:
+設定完成後的網誌轉檔指令為：pelican -s local_publishconf.py，表示要利用 local_publishconf.py 的設定進行轉檔，且先前有關 pelicanconf.py 的設定也將導入執行。
+命名規則:
+各組員必須將個別的網誌 .md 檔案名稱加上前綴字串，例如： "學號_" 加上獨一無二的網誌 Slug 字串名稱。
+Category 使用該組員的學號作為標示。
+這樣在統整轉檔時，不會發生相同網誌文章檔案名稱衝突的錯誤，且從各分組網誌的 Categories 中即可找到各組員所編寫的所有網誌內容。&lt;/p&gt;
+&lt;h1&gt;w5主要工作&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;使用CapCut軟體進行影片剪輯，需手動將簡體字改成繁體字，20分鐘以上影片需花1小時以上剪輯。
+&lt;/em&gt;上傳YouTube影片。
+&lt;em&gt;各組員的網誌文章需放在個別倉儲的 markdown 目錄中，並修改 pelicanconf.py 進行統整。
+&lt;/em&gt;使用 pelicanconf.py 設定將 .md 檔案動態複製到 combined_directory，避開 pages 目錄。
+&lt;em&gt;轉檔指令為：pelican -s local_publishconf.py，需加上學號前綴及獨一無二的Slug字串。
+&lt;/em&gt;確保每個網誌文章有獨立的Category標示，以便於檔案管理及查找。&lt;/p&gt;</content><category term="a-w5-41023110"></category><category term="網誌編寫 41023110"></category></entry><entry><title>2024 協同課程a-w4</title><link href="./2024-%E5%8D%94%E5%90%8C%E8%AA%B2%E7%A8%8Ba-w4-41023110.html" rel="alternate"></link><published>2024-04-12T16:30:00+08:00</published><updated>2024-06-14T06:08:07+08:00</updated><author><name>41023110</name></author><id>tag:None,2024-04-12:./2024-協同課程a-w4-41023110.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引&lt;/p&gt;
 
 
